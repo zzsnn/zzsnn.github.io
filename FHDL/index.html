@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- 网页关键词 -->
+    <title>防红网_域名防红_域名防封_QQ微信防红</title>
+    <meta name="keywords" content="域名防红,域名防封,QQ防红,微信防红,免费防红">
+    <meta name="description" content="FourS防红,使用后可以让被误报、被拦截、被红的正规网站正常打开 。| 1.强跳转浏览器模式  2.内置直接打开模式 | QQ无视举报，屏蔽微信举报按钮，解决恶意举报难题。5G云防红免费版永久免费，一直更新接口，助站长成长，解决被误报推广难题。">
+    <link rel="shortcut icon" href="/images/ico.png">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <!-- 自定义CSS -->
+    <link rel="stylesheet" href="static/css/new.css">
+    <link rel="stylesheet" href="static/css/topnav.css">
+    <link rel="stylesheet" href="static/css/footer.css">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/kefu.css">
+    <link rel="stylesheet" href="static/css/mtk.css">
+     <link rel="stylesheet" href="static/css/kefu.css">
+    <script src="js/jquery.min.js "></script>
+    <script src="js/jquery.qrcode.min.js"></script>
+    <!-- 判断是不是QQ和微信内部打开 -->     
+<script>
+if(navigator.userAgent.indexOf("QQ/" || "TIM/")>0){
+window.location.href= 'http://c.pc.qq.com/middle.html?pfurl='+window.location.href+'?该网站不兼容QQ内部浏览，请复制该链接到浏览器打开';
+}else if(navigator.userAgent.indexOf("MicroMessenger")>0){
+window.location.href= 'http://c.pc.qq.com/middle.html?pfurl='+window.location.href+'?该网站不兼容微信内部浏览，请复制该链接到浏览器打开！';
+}
+</script> 
+    <script>
+        window.onload = function() {
+                //屏蔽键盘事件
+                document.onkeydown = function() {
+
+                    var e = window.event || arguments[0];
+                    //F12
+
+                    if (e.keyCode == 123) {
+
+                        return false;
+                        //Ctrl+Shift+I
+
+                    } else if ((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)) {
+
+                        return false;
+                        //Shift+F10
+
+                    } else if ((e.shiftKey) && (e.keyCode == 121)) {
+
+                        return false;
+                        //Ctrl+U
+
+                    } else if ((e.ctrlKey) && (e.keyCode == 85)) {
+
+                        return false;
+
+                    }
+
+                };
+
+            }
+    </script>
+</head>
+
+<body>
+    <!-- 头部导航部分开始 -->
+    <header class="navbar-fixed-top">
+        <nav class="container">
+            <div class="logo">
+                <h1>
+                    <a href="index.html">FourS防红</a>
+                </h1>
+            </div>
+            <ul class="navcon" id="nav_r">
+                <li><a href="/">首页</a></li>
+             <li><a href="http://www.szl521.cn/">个人主页</a></li>
+                <li><a href="http://www.szl521.cn/ewm">三合一收款码</a></li>
+                			
+            </ul>
+            <button class="xpan">导航</button>
+
+        </nav>
+        <!-- 小屏幕下显示的ul -->
+        <div class='xpul'>
+            <ul class="container">
+            	<li><a href="/dl">首页</a></li>
+            	<li><a href="http://www.szl521.cn/">个人主页</a></li>
+                <li><a href="http://www.szl521.cn/ewm">三合一收款码</a></li>         
+            </ul>
+        </div>
+    </header>
+    <!-- 头部导航部分结束 -->
+    <!-- 中心部分开始 -->
+    <div class="dtmain">
+        <div class="mainbox container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="img row">
+                        <img src="picture/logo.png" alt=" " class="col-md-6 col-xs-6 ">
+                    </div>
+                    <div class="container juli ">
+                        <div class="shurukuang row ">
+
+                            <div class="wztext col-md-8 col-xs-12 ">
+                                <span class="glyphicon glyphicon-link ipticon "></span>
+
+                                <input type="text " id="longurl" class="wangzhi " placeholder="请输入域名或网址">
+                            </div>
+                            <div class="xzfs col-md-2 col-xs-12 ">
+                                <div class="mnselect ">
+                                    <span>防红方式</span>
+
+                                    <ul class="mnselect_ul">
+                                        <li value="1 ">QQ防红跳转-1号免费版</li>
+                                        <li value="2 ">微信防红跳转-1号免费版</li>
+                                        <li value="5 ">QQ防红跳转-2号免费版</li>
+                                        <li value="6 ">微信防红跳转-2号免费版</li>
+                                        <li value="3 ">只缩短（免费版）</li>
+                                      
+                                        
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="xzfs col-md-2 col-xs-12 ">
+                                <div class="mnselect1 ">
+                                    <span>短网址选择</span>
+                                    <ul class="mnselect1_ul ">
+                                    	<li value="3 ">url.cn</li>
+                                    	<li value="2 ">t.cn</li>
+                                        <li value="7 ">sinaurl.cn</li>
+                                        <li value="8 ">sohu.gg</li>
+                                        <li value="5 ">suo.im</li>
+                                        <li value="6 ">mrw.so</li>
+                                        <li value="11 ">dwz.la</li>
+                                        <li value="12 ">jq.ink</li>
+                                        <li value="13 ">r4.gs</li>
+                                        <li value="0 ">不缩短</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="guize">
+                <a href="javascript:;" class="agree"> <i class="glyphicon glyphicon-ok"></i> 我同意</a><a href="https://www.creditchina.gov.cn/home/zhngcefagui/201904/t20190425_153708.html" id="fhxy">《链接内容管理规范》</a>
+            </div>
+            <div class="btnhezi row ">
+                <div class="anniuhezi ">
+                    <div class="scbtn col-md-3 col-xs-6 ">
+                        <button type="submit" class="shengcheng " id="scbtn">生成</button>
+                    </div>
+                    <div class="scbtn col-md-3 col-xs-6 ">
+                        <button type="submit" class="shengcheng " id="cxbtn">查询</button>
+                    </div>
+                    <div class="scbtn col-md-3 col-xs-6 ">
+                        <button type="submit" class="shengcheng " id="hybtn">还原</button>
+                    </div>
+                    <div class="scbtn col-md-3 col-xs-6 ">
+                        <button type="submit" class="shengcheng " id="jcbtn">检测</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 中心部分结束 -->
+    
+
+    <!-- 底部footer -->
+    <footer>
+        <div class="container foot">
+            <!-- <div class="footlogo col-md-12">
+                <img src="picture/logo.png" alt="">
+            </div> -->
+            <div class="col-md-12 textfoot">
+ <p class="am-text-sm"><b>免责声明：</b>短网址由用户生成，所跳转的内容与本站无关。本站严禁钓鱼，诈骗等一切违法犯罪网站使用。</p>
+               
+                <p class="am-text-sm">友情链接：<a href="http://www.szl521.cn/" target="_blank">个人主页</a> | <a href="http://szl521.cn/tc" target="_blank">FourS图床</a> |</p>
+                <p>Powered by FourS © 2020
+                |ICP备：<a target="_blank" href="http://www.beian.miit.gov.cn/" >京ICP备1941093526号-2</a> 
+                
+              
+                </p>
+            </div>
+        </div>
+    </footer>
+        </div>
+    </div>
+    <script>
+        $(function() {
+            $("#aFloatTools_Show").click(function() {
+                $('#divFloatToolsView').animate({
+                    width: 'show',
+                    opacity: 'show'
+                }, 100, function() {
+                    $('#divFloatToolsView').show();
+                });
+                $('#aFloatTools_Show').hide();
+                $('#aFloatTools_Hide').show();
+            });
+            $("#aFloatTools_Hide").click(function() {
+                $('#divFloatToolsView').animate({
+                    width: 'hide',
+                    opacity: 'hide'
+                }, 100, function() {
+                    $('#divFloatToolsView').hide();
+                });
+                $('#aFloatTools_Show').show();
+                $('#aFloatTools_Hide').hide();
+            });
+        });
+    </script>
+    <div class="mtk-big">
+        <div class="mtk-small">
+            <div class="result">
+                <span>执行结果</span>
+                <a href="javascript:;" class="closebtn glyphicon glyphicon-remove-sign"></a>
+            </div>
+            <div class="fanhuizhi">
+                <p id="dwzdate">正在执行程序,请稍等...</p>
+
+                <!-- <p id="qrcode" style="display: none;">
+                </p> -->
+                <div>
+                    <img src="" id="erwm">
+                </div>
+                <div class="fuzhi">点我复制哦!
+                </div>
+                <div>
+                    <a href="" class="baocunimg" target="_blank">点我保存二维码</a>
+                </div>
+
+            </div>
+        </div>
+ <script src="js/nav.js "></script>
+<script src="js/main.js "></script>
+<script src="js/first.js"></script>
+</body>
+</html>
