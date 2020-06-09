@@ -13,19 +13,29 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+		<span style="font-size:24px;"><style type="text/css">
 
+			body{     
+			
+				overflow-x: hidden;     
+			
+				overflow-y: hidden;     
+			
+			}     
+			
+			</style></span>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-gem"></span>
+							<img src="images/resizeApi-1220967_128.png" class="logo">
 						</div>
 						<div class="content">
 							<div class="inner">
 								<h1>折纸少年</h1>
-								<p>一个无人知晓的网站
+								<p>欢迎来到“一个无人知晓的网站”
 									<br />
 								语录：越是在黑暗的时候，我们越要集中精神去寻找光明</p>
 							</div>
@@ -34,6 +44,8 @@
 							<ul>
 								<li><a href="https://thefine.github.io/">博客</a></li>
 								<li><a href="https://zzsncloud.herokuapp.com/">软件分享</a></li>
+								<li><a href="https://zzsnn.github.io/MLJS/">全网视频解析</a></li>
+								<li><a href="https://zzsnn.github.io/">域名防红(未上线)</a></li>
 								<li><a href="https://zzsnn.github.io/ABEL/">聚合图床</a></li>
 								<li><a href="http://zzsn.epizy.com/">私人图床</a></li>
 								<li><a href="https://github.com/zzsnn">Github</a></li>
@@ -345,9 +357,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://thefine.github.io">折纸少年博客</a>.</p>
-					</footer>
-
+						<p class="copyright">Copyright © 2020-2060  <a href="https://zzsnn.github.io/" target="_blank">折纸少年</a>版权所有</p>
+						                        <p class="copyright">本站由<a href="javascript:;">HTML5</a>提供模板支持</p>
+				</div>
+				<script type="text/javascript" language="javascript">(function(){function k(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent&&a.attachEvent("on"+b,c)}function g(a){if(typeof window.onload!="function")window.onload=a;else{var b=window.onload;window.onload=function(){b();a()}}}function h(){var a={};for(type in{Top:"",Left:""}){var b=type=="Top"?"Y":"X";if(typeof window["page"+b+"Offset"]!="undefined")a[type.toLowerCase()]=window["page"+b+"Offset"];else{b=document.documentElement.clientHeight?document.documentElement:document.body; a[type.toLowerCase()]=b["scroll"+type]}}return a}function l(){var a=document.body,b;if(window.innerHeight)b=window.innerHeight;else if(a.parentElement.clientHeight)b=a.parentElement.clientHeight;else if(a&&a.clientHeight)b=a.clientHeight;return b}function i(a){this.parent=document.body;this.createEl(this.parent,a);this.size=Math.random()*5+5;this.el.style.width=Math.round(this.size)+"px";this.el.style.height=Math.round(this.size)+"px";this.maxLeft=document.body.offsetWidth-this.size;this.maxTop=document.body.offsetHeight- this.size;this.left=Math.random()*this.maxLeft;this.top=h().top+1;this.angle=1.4+0.2*Math.random();this.minAngle=1.4;this.maxAngle=1.6;this.angleDelta=0.01*Math.random();this.speed=2+Math.random()}var j=false;g(function(){j=true});var f=true;window.createSnow=function(a,b){if(j){var c=[],m=setInterval(function(){f&&b>c.length&&Math.random()<b*0.0025&&c.push(new i(a));!f&&!c.length&&clearInterval(m);for(var e=h().top,n=l(),d=c.length-1;d>=0;d--)if(c[d])if(c[d].top<e||c[d].top+c[d].size+1>e+n){c[d].remove(); c[d]=null;c.splice(d,1)}else{c[d].move();c[d].draw()}},40);k(window,"scroll",function(){for(var e=c.length-1;e>=0;e--)c[e].draw()})}else g(function(){createSnow(a,b)})};window.removeSnow=function(){f=false};i.prototype={createEl:function(a,b){this.el=document.createElement("img");this.el.setAttribute("src",b+"http://mimg.127.net/hxm/quan/hd/111207_sdj/style/img/snow.gif");this.el.style.position="absolute";this.el.style.display="block";this.el.style.zIndex="99999";this.parent.appendChild(this.el)},move:function(){if(this.angle< this.minAngle||this.angle>this.maxAngle)this.angleDelta=-this.angleDelta;this.angle+=this.angleDelta;this.left+=this.speed*Math.cos(this.angle*Math.PI);this.top-=this.speed*Math.sin(this.angle*Math.PI);if(this.left<0)this.left=this.maxLeft;else if(this.left>this.maxLeft)this.left=0},draw:function(){this.el.style.top=Math.round(this.top)+"px";this.el.style.left=Math.round(this.left)+"px"},remove:function(){this.parent.removeChild(this.el);this.parent=this.el=null}}})();createSnow("", 80); </script>
+				</footer>
 			</div>
 
 		<!-- BG -->
@@ -360,5 +374,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<audio autoplay>
+				<source src="https://music.163.com/song/media/outer/url?id=1398663411.mp3" type="audio/mpeg"><!-- ！BGM！-->
+</audio>
 	</body>
 </html>
