@@ -104,7 +104,7 @@ $("#pay").click(function () {
         scrollbar: false,
         btnAlign: 'c',
         moveType: 1,
-        content: "https://qrpay.oioweb.cn/qrpay.php?id=1",
+        content: "https://qrpay.oioweb.cn/qrpay.php?id=311",
         btn:['残忍拒绝'],
         yes:function () {
             layer.closeAll();
