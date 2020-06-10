@@ -1,7 +1,11 @@
-@import url(font-awesome.min.css);
-@import url("https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/MLJS/static/css/css");
-
-
+﻿@import url(font-awesome.min.css);
+@import url("img/css");
+/*
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/* Reset */
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -33,13 +37,13 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
-
+/* Box Model */
 	*, *:before, *:after {
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
-
+/* Basic */
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -65,7 +69,7 @@
 			-ms-transition-delay: none !important;
 			transition-delay: none !important;
 		}
-
+/* Type */
 	html {
 		font-size: 16pt;
 	}
@@ -216,7 +220,7 @@
 	.align-right {
 		text-align: right;
 	}
-
+/* Form */
 	form {
 		margin: 0 0 2.5rem 0;
 	}
@@ -448,7 +452,7 @@
 		color: rgba(255, 255, 255, 0.5) !important;
 		opacity: 1.0;
 	}
-
+/* Box */
 	.box {
 		border-radius: 4px;
 		border: solid 1px #ffffff;
@@ -465,7 +469,7 @@
 			border-radius: 0;
 			padding: 0;
 		}
-
+/* Icon */
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -482,7 +486,7 @@
 		.icon > .label {
 			display: none;
 		}
-
+/* Image */
 	.image {
 		border-radius: 4px;
 		border: 0;
@@ -494,7 +498,7 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-image: url("image/52cx.png");
+			background-image: url("img/overlay.png");
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
@@ -552,7 +556,7 @@
 				margin: 1.5rem 0;
 			}
 		}
-
+/* List */
 	ol {
 		list-style: decimal;
 		margin: 0 0 2rem 0;
@@ -699,7 +703,7 @@
 		dl dd {
 			margin-left: 2rem;
 		}
-
+/* Table */
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
@@ -752,7 +756,7 @@
 			table.alt tfoot {
 				border-top: 0;
 			}
-
+/* Button */
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -846,7 +850,7 @@
 	button {
 		line-height: calc(2.75rem - 2px);
 	}
-
+/* BG */
 	#bg {
 		-moz-transform: scale(1.0);
 		-webkit-transform: scale(1.0);
@@ -878,7 +882,7 @@
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("image/overlay.png");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("img/overlay.png");
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
@@ -893,7 +897,7 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("image/52cx.jpg");
+			background-image: url("img/52cx.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -912,7 +916,7 @@
 		body.is-loading #bg:before {
 			background-color: #000000;
 		}
-
+/* Wrapper */
 	#wrapper {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -955,7 +959,7 @@
 				padding: 1rem;
 			}
 		}
-
+/* Header */
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -1177,7 +1181,7 @@
 					display: none;
 				}
 		}
-
+/* Main */
 	#main {
 		-moz-flex-grow: 1;
 		-webkit-flex-grow: 1;
@@ -1284,7 +1288,7 @@
 				padding: 3rem 1.5rem 0.5rem 1.5rem ;
 			}
 		}
-
+/* Footer */
 	#footer {
 		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
