@@ -6,29 +6,6 @@
 -->
 <html>
 	<head>
-<script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.9.0/jquery.js";></script> 
-<script type="text/javascript" src="https://raw.github.com/defunkt/jquery-pjax/master/jquery.pjax.js"></script>
-<div class="pjax_loading"></div>
-<script>
-$(document).pjax('a[target!=_blank]', '#contentleft', {fragment:'#contentleft', timeout:8000});
-$(document).on('pjax:send', function() { //pjax链接点击后显示加载动画；
-$(".pjax_loading").css("display", "block");
-});
-$(document).on('pjax:complete', function() { //pjax链接加载完成后隐藏加载动画；
-$(".pjax_loading").css("display", "none");
-pajx_loadDuodsuo();
-});
-function pajx_loadDuodsuo(){
-var dus=$(".ds-thread");
-if($(dus).length==1){
-var el = document.createElement('div');
-el.setAttribute('data-thread-key',$(dus).attr("data-thread-key"));//必选参数
-el.setAttribute('data-url',$(dus).attr("data-url"));
-DUOSHUO.EmbedThread(el);
-$(dus).html(el);
-}
-}
-</script>
 		<title>首页-折纸少年</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
