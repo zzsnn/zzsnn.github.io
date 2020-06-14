@@ -1320,6 +1320,4 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
-html,body{ overflow-y:scroll;}
-html,body{ overflow:scroll; min-height:101%;}
-html{ overflow:hidden;}
+		
