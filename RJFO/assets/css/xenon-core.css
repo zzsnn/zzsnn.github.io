@@ -923,7 +923,7 @@ body {
 }
 
 .sidebar-menu .logo-env {
-    padding: 11px 30px;
+    padding: 12px 40px;
     border-bottom: 1px solid #e6e5e5
 }
 
@@ -2182,12 +2182,12 @@ body {
 
 footer.main-footer {
     padding: 20px 30px;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #f9f9f9;
     font-size: 12px;
     margin-left: -30px;
     margin-right: -30px;
     margin-top: 10px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
 }
 
 footer.main-footer:before,
@@ -3934,8 +3934,8 @@ body.chat-open #chat {
     }
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env {
         margin-bottom: 0;
-        padding-top: 20px;
-        padding-bottom: 20px
+        padding-top: 16px;
+        padding-bottom: 8px
     }
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle {
         float: right
@@ -3949,9 +3949,9 @@ body.chat-open #chat {
     }
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a i {
         line-height: 1;
-        font-size: 18px;
+        font-size: 20px;
         position: relative;
-        top: 1px
+        top: 14px
     }
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:hover,
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:active,
