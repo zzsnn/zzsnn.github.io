@@ -5,14 +5,14 @@ body {
   font-family: "Open Sans", sans-serif;
 /*   color: #fff; */
   position: relative;
-  cursor:url(https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/etc/mr.cur),auto;
+  cursor:url(../images/mr.cur),auto;
   text-shadow: 0px 0px 1px #ffffffa6);
 }
 
 body::before {
   content: "";
   position: fixed;
-  background-image:url(https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/1.jpg);
+  background-image:url(../images/1.jpg);
   background-size: cover;
   left: 0;
   right: 0;
