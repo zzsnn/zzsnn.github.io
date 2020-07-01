@@ -1,0 +1,23 @@
+/**
+ * 技术信息：资源信息
+ * 请参考: https://bazhan.me/faq
+*/
+{
+    "success": [
+        {
+            "url": "https://www.yy.wiki/static/fonts/",
+            "path": "index.html",
+            "children": [
+                {
+                    "url": "https://img.yy.wiki/favicon.ico",
+                    "path": "favicon.ico",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "failures": [
+        "https://fonts.googleapis.com/css?family=Montserrat:400,600,700",
+        "https://fonts.googleapis.com/css?family=Catamaran:400,800"
+    ]
+}

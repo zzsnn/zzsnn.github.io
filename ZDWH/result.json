@@ -1,0 +1,52 @@
+/**
+ * 技术信息：请求参数
+ * 请参考: https://bazhan.me/faq
+*/
+{
+    "directory": "www-yy-wiki-51f2f044",
+    "options": {
+        "url": "https://www.yy.wiki/static/fonts/",
+        "ipaddress": "156.236.72.12",
+        "domain": "www.yy.wiki",
+        "request": {
+            "headers": {
+                "Accept": "text/html,*/*",
+                "Accept-language": "zh-CN,zh;q=0.9",
+                "Accept-Encoding": "gzip",
+                "Cache-control": "no-cache",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "X-Scraper-WebSite": "https://bazhan.me/"
+            }
+        },
+        "response": {
+            "statusCode": 404,
+            "headers": {
+                "date": "Wed, 01 Jul 2020 17:03:14 GMT",
+                "server": "Apache/2.4.41 (Win32) OpenSSL/1.1.1c mod_fcgid/2.3.9a",
+                "upgrade": "h2,h2c",
+                "connection": "Upgrade, close",
+                "last-modified": "Wed, 10 Jun 2020 01:18:17 GMT",
+                "etag": "\"15bb-5a7b09e676db5-gzip\"",
+                "accept-ranges": "bytes",
+                "vary": "Accept-Encoding",
+                "content-encoding": "gzip",
+                "content-length": "1661",
+                "content-type": "text/html"
+            }
+        }
+    },
+    "formatter": {
+        "css": false,
+        "html": false,
+        "javascript": false,
+        "save-original": true
+    },
+    "user": {
+        "isWhite": false
+    },
+    "time": {
+        "start": 1593623053328,
+        "end": 1593623055668,
+        "spend": "2.34s"
+    }
+}
