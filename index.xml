@@ -56,7 +56,7 @@
 <div class="kratos-overlay"><div class="filter"></div><canvas id="canvas" width="1920" height="939"></canvas></div>
     <div class="container">
    <!--<h1><a href="index.html">YY.wiki</a></h1> -->
-     <h1><a href="index.html" class="mr-auto"><img src="images/bailogo.png" height="70" alt class=""></a></h1> 
+     <h1><a href="index.html" class="mr-auto"><img src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/bailogo.png" height="70" alt class=""></a></h1> 
       <h2><div class="jz  ys" id="chakhsu"></div></h2>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -75,7 +75,7 @@
         <a href="https://github.com/zzsnn" class="twitter"><i class="iconfont icon-githubblack"></i></a>
         <a href="mailto:jigdcstgc@gmail.com" class="social-icon"><i class="iconfont icon-email-copy"></i></a> 
         <a href="//wpa.qq.com/msgrd?v=3&uin=768463945&site=qq&menu=yes" class="instagram"><i class="zm zm-QQ"></i></a>
-        <a href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io//images/weixin.png" class="google-plus"><i class="zm zm-weixin"></i></a>
+        <a href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/weixin.png" class="google-plus"><i class="zm zm-weixin"></i></a>
 		
 		
       </div>
