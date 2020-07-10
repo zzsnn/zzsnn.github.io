@@ -723,6 +723,8 @@ var _hmt = _hmt || [];
             </div>
             <br />
             <!-- IOS应用 -->
+
+
             <!-- Android应用 -->
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="Android应用"></i>Android常用推荐</h4>
             <div class="row">
@@ -744,6 +746,8 @@ var _hmt = _hmt || [];
             </div>
             <br />
             <!--Android应用 -->
+
+            
             <!-- Windows应用 -->
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="Windows应用"></i>Windows应用</h4>
             <div class="row">
@@ -1065,6 +1069,8 @@ var _hmt = _hmt || [];
             </div>
             <br />
             <!--Windows应用 -->
+
+
             <!-- 友情链接 -->
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="友情链接"></i>友情链接</h4>
             <div class="row">
@@ -1129,6 +1135,9 @@ var _hmt = _hmt || [];
                     </div>
                 </div>
             </div>
+            <a href="../link.html" rel="nofollow" class="btn btn-success padder-lg">
+                <span class="text">+ 友链申请</span>
+              </a>
             <br />
             <!--友情链接 -->
             <!-- Main Footer -->
