@@ -3935,8 +3935,8 @@ body.chat-open #chat {
     }
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env {
         margin-bottom: 0;
-        padding-top: 10px;
-        padding-bottom: 10px
+        padding-top: 5px;
+        padding-bottom: 5px
     }
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle {
         float: right
@@ -3952,7 +3952,7 @@ body.chat-open #chat {
         line-height: 1;
         font-size: 20px;
         position: relative;
-        top: 14px
+        top: 16px
     }
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:hover,
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:active,
