@@ -941,6 +941,51 @@ var _hmt = _hmt || [];
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://mdnice.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://mdnice.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-original="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/assets/images/sheji/Markdown.png" class="img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>让微信排版很nice</strong>
+                                </a>
+                                <p class="overflowClip_2">Markdown Nice</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://xiezuocat.com/#/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://xiezuocat.com/#/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-original="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/assets/images/sheji/Markdown.png" class="img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>秘塔写作猫</strong>
+                                </a>
+                                <p class="overflowClip_2">写作从未如此简单</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://s.zcjun.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://s.zcjun.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-original="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/assets/images/sheji/suoluetu.png" class="img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>网站缩略图</strong>
+                                </a>
+                                <p class="overflowClip_2">网站缩略图生成</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <br />
             <!--在线工具 -->
@@ -1245,6 +1290,21 @@ var _hmt = _hmt || [];
                                     <strong>iconshock</strong>
                                 </a>
                                 <p class="overflowClip_2">2百万专业的图标库（付费为主）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://fontawesome.dashgame.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://fontawesome.dashgame.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-original="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/assets/images/sheji/suoluetu.png" class="img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Font Awesome</strong>
+                                </a>
+                                <p class="overflowClip_2">一套绝佳的图标字体库和CSS框架</p>
                             </div>
                         </div>
                     </div>
