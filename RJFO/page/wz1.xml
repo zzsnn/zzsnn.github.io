@@ -66,10 +66,10 @@ var _hmt = _hmt || [];
                 <header class="logo-env">
                     <!-- logo -->
                     <div class="logo">
-                        <a href="index.html" class="logo-expanded">
+                        <a href="../cn/index.html" class="logo-expanded">
                             <img src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/assets/images/logo@2x.png" height="50" alt="APP分享">
                         </a>
-                        <a href="index.html" class="logo-collapsed">
+                        <a href="./cn/index.html" class="logo-collapsed">
                             <img src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/assets/images/logo-collapsed@2x.png" height="50" alt="APP分享">
                         </a>
                     </div>
