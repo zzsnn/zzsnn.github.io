@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh">
 
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?0085971383c8bd0ac45892d45f170731";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 <head>
-    <script async src = "../assets/js/adsbygoogle.js" >
+    <script async src = "https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/assets/js/adsbygoogle.js" >
     </script>
     <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -52,14 +62,14 @@
     <!-- skin-white -->
     <div class="page-container">
         <div class="sidebar-menu toggle-others fixed">
-            <div class="sidebar-menu-inner">
+            <div class="sidebar-menu-inner ps-container">
                 <header class="logo-env">
                     <!-- logo -->
                     <div class="logo">
-                        <a href="../cn/index.html" class="logo-expanded">
+                        <a href="index.html" class="logo-expanded">
                             <img src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/assets/images/logo@2x.png" height="50" alt="APP分享">
                         </a>
-                        <a href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/cn/index.html" class="logo-collapsed">
+                        <a href="index.html" class="logo-collapsed">
                             <img src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/assets/images/logo-collapsed@2x.png" height="50" alt="APP分享">
                         </a>
                     </div>
@@ -73,49 +83,55 @@
                 </header>
                 <ul id="main-menu" class="main-menu">
                     <li>
-                        <a href="../cn/index.html?#IOS应用">
-                            <i class="fa fa-apple fa-fw"></i>
-                            <span class="title">IOS应用</span>
+                        <a href="../cn/index.html">
+                            <i class="fa fa-smile-o"></i>
+                            <span class="title">破解软件</span>
                         </a>
                     </li>
                     <li>
-                        <a href="../cn/index.html?#Android应用">
-                            <i class="fa fa-android fa-fw"></i>
-                            <span class="title">Android应用</span>
+                        <a href="../cn/Design.html">
+                            <i class="fa fa-minus-square-o"></i>
+                            <span class="tooltip-blue">设计 Design</span>
                         </a>
                     </li>
                     <li>
-                        <a href="../cn/index.html?#Windows应用">
-                            <i class="fa fa-windows fa-fw"></i>
-                            <span class="title">Windows应用</span>
+                        <a href="../cn/Develop.html">
+                            <i class="fa fa-terminal"></i>
+                            <span class="tooltip-blue">前端 Develop</span>
                         </a>
                     </li>
                     <li>
-                        <a href="../cn/index.html?#友情链接">
-                            <i class="linecons-heart"></i>
+                        <a href="../cn/Operate.html">
+                            <i class="fa fa-spinner"></i>
+                            <span class="tooltip-blue">运营 Operate</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../cn/Product.html">
+                            <i class="fa fa-hdd-o"></i>
+                            <span class="tooltip-blue">产品 Product</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#友情链接">
+                            <i class="fa fa-paperclip"></i>
                             <span class="title">友情链接</span>
                         </a>
                     </li>
                     <li>
                         <a href="../page/wz1.html">
-                            <i class="fa fa-leaf"></i>
-                            <span class="tooltip-blue">网站文章(测试中)</span>
+                            <i class="fa fa-paper-plane-o"></i>
+                            <span class="tooltip-blue">历史文章(测试中)</span>
+                            <span class="label label-pink pull-right hidden-collapsed">Hot</span>
                         </a>
                     </li>
                     <li>
                         <a href="../cn/about.html">
-                            <i class="fa fa-comments"></i>
+                            <i class="fa fa-comments-o"></i>
                             <span class="tooltip-blue">留言版</span>
                             <span class="label label-Primary pull-right hidden-collapsed">♥︎</span>
                         </a>
                     </li>
-                    <!-- <div class="submit-tag">
-                        <a href="about.html">
-                            <i class="linecons-heart"></i>
-                            <span class="tooltip-blue">关于本站</span>
-                            <span class="label label-Primary pull-right hidden-collapsed">♥︎</span>
-                        </a>
-                    </div> -->
                 </ul>
             </div>
         </div>
@@ -130,7 +146,7 @@
                         </a>
                     </li>
                     <li class="dropdown hover-line language-switcher" style="min-height: 75px;">
-                        <a href="https://zzsnn.github.io/RJFO/">首页</a>
+                        <a href="../index.html">首页</a>
                     </li>
                     </li>
                 </ul>
@@ -151,8 +167,7 @@
 	                 effect: "fadeIn"
 	           });  
 	      });
-            </script>
-            
+			</script>
             <!-- 文章 -->
             <div class="row">
 
@@ -654,7 +669,7 @@
         </nav>
             </div>
         </div>
-
+        <!-- 文章 -->
 
             <!-- Main Footer -->
             <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
@@ -741,11 +756,11 @@
     <script src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/assets/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/assets/js/TweenMax.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/assets/js/resizeable.js"></script>
-    <script src="../assets/js/joinable.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/assets/js/joinable.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/assets/js/xenon-api.js"></script>
-    <script src="../assets/js/xenon-toggles.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/assets/js/xenon-toggles.js"></script>
     <!-- JavaScripts initializations and stuff -->
-    <script src="../assets/js/xenon-custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/assets/js/xenon-custom.js"></script>
     <script>
   ((window.gitter = {}).chat = {}).options = {
    
@@ -754,4 +769,5 @@
 </script>
 <script src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/RJFO/assets/js/sidecar.v1.js" async defer></script>
 </body>
+
 </html>
