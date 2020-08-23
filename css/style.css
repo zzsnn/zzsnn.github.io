@@ -9,60 +9,6 @@ body {
   text-shadow: 0px 0px 1px #ffffffa6;
 }
 
-body:before, body:after {
-  content: "";
-  position: fixed;
-  background-size: cover;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 100vh;
-}
-body:before {
-  -moz-transition: background-color 2.5s ease-in-out;
-  -webkit-transition: background-color 2.5s ease-in-out;
-  -ms-transition: background-color 2.5s ease-in-out;
-  transition: background-color 2.5s ease-in-out;
-  -moz-transition-delay: 0.75s;
-  -webkit-transition-delay: 0.75s;
-  -ms-transition-delay: 0.75s;
-  transition-delay: 0.75s;
-  background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/MLJS/style/css/img/overlay.png");
-  background-size: auto, 256px 256px;
-  background-position: center, center;
-  background-repeat: no-repeat, repeat;
-  z-index: 2;
-}
-body:after {
-  -moz-transform: scale(1.125);
-  -webkit-transform: scale(1.125);
-  -ms-transform: scale(1.125);
-  transform: scale(1.125);
-  -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
-  -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
-  -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
-  transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-  background-image: url("https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/2.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 1;
-}
-body.is-article-visible body:after {
-  -moz-transform: scale(1.0825);
-  -webkit-transform: scale(1.0825);
-  -ms-transform: scale(1.0825);
-  transform: scale(1.0825);
-  -moz-filter: blur(0.2rem);
-  -webkit-filter: blur(0.2rem);
-  -ms-filter: blur(0.2rem);
-  filter: blur(0.2rem);
-}
-body.is-loading body:before {
-  background-color: #000000;
-}
-
-
 a {
   color: #18d26e;
 }
