@@ -192,17 +192,6 @@ var iUp = (function () {
 })();
 
 $(document).ready(function () {
-
-	// 获取一言数据
-	//fetch('https://v1.hitokoto.cn').then(function (res) {
-		//return res.json();
-	//}).then(function (e) {
-		//$('#description').html(e.hitokoto + "<br/> -「<strong>" + e.from + "</strong>」")
-	//}).catch(function (err) {
-		//console.error(err);
-	//})
-
-	
 	// var url = 'https://query.yahooapis.com/v1/public/yql' + 
     // '?q=' + encodeURIComponent('select * from json where url=@url') +
     // '&url=' + encodeURIComponent('https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=8') +
@@ -214,7 +203,8 @@ $(document).ready(function () {
 	 * 改用 JsonBird：https://bird.ioliu.cn/
 	 * 
 	 */
-	var url = 'https://bird.ioliu.cn/v1/?url=https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=8';
+  
+	//var url = 'https://bird.ioliu.cn/v1/?url=https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=8';
 	var imgUrls = JSON.parse(sessionStorage.getItem("imgUrls"));
 	var index = sessionStorage.getItem("index");
 	var $header = $('#header');
