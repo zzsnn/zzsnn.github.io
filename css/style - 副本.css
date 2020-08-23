@@ -6,10 +6,10 @@ body {
 /*   color: #fff; */
   position: relative;
   cursor:url(https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/mr.cur),auto;
-  text-shadow: 0px 0px 1px #ffffffa6;
+  text-shadow: (0px 0px 1px #ffffffa6);
 }
 
-body:before {
+body::before {
   content: "";
   position: fixed;
   background-image:url(https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/1.jpg);
@@ -22,7 +22,7 @@ body:before {
 }
 
 @media (min-width: 1024px) {
-  body:before {
+  body::before {
     background-attachment: fixed;
   }
 }
@@ -51,8 +51,11 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
  /*  z-index: 997; */
   overflow-y: auto;
-  overflow-x: hidden;
   background: rgba(0, 0, 0, 0.45);
+}
+
+#header * {
+  transition: ease-in-out 0.3s;
 }
 
 #header h1 {
@@ -62,8 +65,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
-  position: relative;
-  z-index: 800;
 }
 
 #header h1 a, #header h1 a:hover {
@@ -74,10 +75,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h2 {
   font-size: 24px;
-  margin: 20px 0px 0px 10px;
+  margin-top: 20px;
   color: rgba(255, 255, 255, 0.8);
-  position: relative;
-  z-index: 800;
 }
 
 #header h2 span {
@@ -92,10 +91,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links {
-  margin: 40px 0px 0px 10px;
+  margin-top: 40px;
   display: flex;
-  position: relative;
-  z-index: 800;
 }
 
 #header .social-links a {
@@ -139,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  margin: 35px 0px 0px 10px;
+  margin-top: 35px;
 }
 
 .nav-menu ul {
@@ -262,10 +259,6 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active .mobile-nav {
   opacity: 1;
   visibility: visible;
-  border: 1px solid #fff;
-  border-radius: 20px;
-  margin-bottom: 15em;
-  text-align: center;
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
@@ -1193,76 +1186,9 @@ section .container {
 }
 p#bginfo {
     font-size: 0.6rem;
-    margin: 30px 0px 0px 12px;
+    margin-top: 30px;
     color: rgba(255, 255, 255, 0.6);
 }
 p#bginfo a {
     color: rgb(255, 255, 255);
-}
-
-
-.iUp {
-  opacity: 0;
-  -webkit-transform: translate3d(0, 100px, 0);
-  -moz-transform: translate3d(0, 100px, 0);
-  -ms-transform: translate3d(0, 100px, 0);
-  -o-transform: translate3d(0, 100px, 0);
-  transform: translate3d(0, 100px, 0);
-  -webkit-transition: all 2s cubic-bezier(0.19, 1, 0.22, 1);
-  -moz-transition: all 2s cubic-bezier(0.19, 1, 0.22, 1);
-  transition: all 2s cubic-bezier(0.19, 1, 0.22, 1)
-}
-
-.iUp.up {
-  opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0)
-}
-
-.header-tops {
-  display: block;
-  position: fixed;
-  z-index: 900;
-  width: 100%;
-  max-width: none;
-  height: 100%;
-  background: center center no-repeat #666;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-transition: width 0.6s ease;
-  -moz-transition: width 0.6s ease;
-  transition: width 0.6s ease;
-}
-
-.panel-cover--overlay {
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #000;
-  z-index: 1;
-  -moz-opacity: .55;
-  opacity: .55;
-}
-
-.navigation-wrapper {
-  position: relative;
-  z-index: 800;
-}
-
-.bgin-fo {
-  position: relative;
-  z-index: 800;
 }
