@@ -1,0 +1,48 @@
+{
+    "directory": "www-yy-wiki-c77ea90c",
+    "options": {
+        "url": "https://zzsnn.github.io/",
+        "ipaddress": "156.236.72.12",
+        "domain": "zzsnn.github.io",
+        "request": {
+            "headers": {
+                "Accept": "text/html,*/*",
+                "Accept-language": "zh-CN,zh;q=0.9",
+                "Accept-Encoding": "gzip",
+                "Cache-control": "no-cache",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "X-Scraper-WebSite": "https://bazhan.me/"
+            }
+        },
+        "response": {
+            "statusCode": 200,
+            "headers": {
+                "date": "Tue, 30 Jun 2020 10:15:30 GMT",
+                "server": "Apache/2.4.41 (Win32) OpenSSL/1.1.1c mod_fcgid/2.3.9a",
+                "upgrade": "h2,h2c",
+                "connection": "Upgrade, close",
+                "last-modified": "Sun, 28 Jun 2020 19:55:32 GMT",
+                "etag": "\"1c5e-5a92a532c8052-gzip\"",
+                "accept-ranges": "bytes",
+                "vary": "Accept-Encoding",
+                "content-encoding": "gzip",
+                "content-length": "2925",
+                "content-type": "text/html"
+            }
+        }
+    },
+    "formatter": {
+        "css": false,
+        "html": false,
+        "javascript": false,
+        "save-original": true
+    },
+    "user": {
+        "isWhite": false
+    },
+    "time": {
+        "start": 1593512186977,
+        "end": 1593512199598,
+        "spend": "12.621s"
+    }
+}
