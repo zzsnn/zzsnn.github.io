@@ -20,9 +20,9 @@ var _hmt = _hmt || [];
   <link href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/favicon.png" rel="icon">
   <link href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/favicon.png" rel="apple-touch-icon">
   <!-- Template Main CSS File -->
-  <link href="./css/style.css" rel="stylesheet">
-  <link href="./css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/css/style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/css/icofont.min.css" rel="stylesheet">
 </head>
 <body>
   <!-- ======= 背景特效 ======= -->
@@ -46,10 +46,10 @@ var _hmt = _hmt || [];
       </div>
 
       <div class="social-links iUp">
-        <a href="https://github.com/zzsnn" class="twitter"><i class="fa fa-github-alt"></i></a>
-        <a href="mailto:jigdcstgc@gmail.com" class="social-icon"><i class="fa fa-envelope-open-o"></i></a> 
-        <a href="https://wpa.qq.com/msgrd?v=3&uin=1620993037&site=qq&menu=yes" class="instagram"><i class="fa fa-qq"></i></a>
-        <a href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/weixin.png" class="google-plus"><i class="fa fa-wechat"></i></a>
+        <a href="https://github.com/zzsnn" class="twitter"><i class="iconfont icon-github"></i></a>
+        <a href="mailto:jigdcstgc@gmail.com" class="social-icon"><i class="iconfont icon-youxiang"></i></a> 
+        <a href="https://wpa.qq.com/msgrd?v=3&uin=1620993037&site=qq&menu=yes" class="instagram"><i class="iconfont icon-QQ"></i></a>
+        <a href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/weixin.png" class="google-plus"><i class="iconfont icon-weixin"></i></a>
 		
 		
       </div>
@@ -70,9 +70,9 @@ var _hmt = _hmt || [];
   <!-- End Header -->
 
   <!-- Template Main JS File -->
-  <script src="./js/jquery.min.js"></script>
-  <script src="./js/owl.carousel.min.js"></script>
-  <script src="./js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/js/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/js/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/js/main.js"></script>
 
   <script>
         var chakhsu = function (r) {
