@@ -29,10 +29,9 @@
           <li class="active"><a href="#header">首页</a></li>
      <!--  <li><a href="#about">关于</a></li> -->
           <li><a href="https://thefine.github.io/">博客</a></li>
+          <li><a href="https://zzsnio.gitee.io/">博客(备用1)</a></li>
+          <li><a href="https://zzsnio.vercel.app/">博客(备用2)</a></li>
           <li><a href="https://zzsnn.github.io/RJFO/cn/Design.html">网站收藏</a></li>
-          <li><a href="https://zzsnn.github.io/MLJS/">在线视频解析</a></li>
-         <!--  <li><a href="#portfolio">Soft</a></li> -->
-          <li><a href="https://zzsnn.github.io/ABEL/">免费图床</a></li>
         </ul>
       </nav><!-- .nav-menu -->
       </div>
