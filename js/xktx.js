@@ -1,3 +1,4 @@
+// 鼠标移动特效，上升气泡//
 function Star(id, x, y){
 	this.id = id;
 	this.x = x;

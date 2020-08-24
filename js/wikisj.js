@@ -1,7 +1,4 @@
-/* ----
-
-冷风存活时间
----- */
+/* ----存活时间---- */
 function siteTime(){
 window.setTimeout("siteTime()", 1000);
 var seconds = 1000
@@ -33,8 +30,6 @@ var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours)
 var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes)
 var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds)
 document.getElementById("sitetime").innerHTML=""+(diffYears*365+diffDays)+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒"
-
 }
 siteTime()
-
-/* 下雪特效 */
+/* ----存活时间---- */
