@@ -88,6 +88,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
 }
 
+#header .social-links a:hover {
+  background: #18d26e;
+}
+
 @media (max-width: 992px) {
   #header h1 {
       font-size: 36px;
@@ -121,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li + li {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .nav-menu a {
