@@ -1,4 +1,4 @@
-// 鼠标移动特效，上升气泡//
+/* ----鼠标移动特效，上升气泡---- */
 function Star(id, x, y){
 	this.id = id;
 	this.x = x;
@@ -187,3 +187,4 @@ function drawIfMouseMoving(){
 function degToRad(deg) {
 	return deg * (Math.PI / 180);
 }
+/* ----鼠标移动特效，上升气泡---- */

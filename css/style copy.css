@@ -6,6 +6,43 @@ body {
   text-shadow: 0px 0px 1px #ffffffa6;
 }
 
+.gnsimg {
+  content: "";
+  position: fixed;
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  background-image: url("../images/1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.gnsimg :hover{
+  -moz-transform: scale(1.0825);
+  -webkit-transform: scale(1.0825);
+  -ms-transform: scale(1.0825);
+  transform: scale(1.0825);
+  -moz-filter: blur(0.2rem);
+  -webkit-filter: blur(0.2rem);
+  -ms-filter: blur(0.2rem);
+  filter: blur(0.2rem);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+@media (min-width: 1024px){
+  .gnsimg{
+      background-attachment: fixed;
+  }
+}
+
 a {
   color: #18d26e;
 }

@@ -20,8 +20,8 @@ var _hmt = _hmt || [];
   <link href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/favicon.png" rel="icon">
   <link href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/favicon.png" rel="apple-touch-icon">
   <!-- Template Main CSS File -->
-  <link href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/css/style.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
   <!-- ======= 背景特效 ======= -->
@@ -31,6 +31,7 @@ var _hmt = _hmt || [];
    <!--<h1><a href="index.html">YY.wiki</a></h1> -->
      <h1><a href="index.html" class="mr-auto iUp"><img src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/bailogo.png" height="70" alt class=""></a></h1> 
       <h2><div class="jz  ys iUp" id="chakhsu"></div></h2>
+      <h3><div class="gnsimg iUp" id="ndqos"></div></h3>
     <div class="navigation-wrapper iUp">
       <nav class="nav-menu d-none d-lg-block">
         <ul>
@@ -64,14 +65,14 @@ var _hmt = _hmt || [];
 	  </p>
     </div>
      <!-- 黑色背景备份 -->
-     <div class="panel-cover--overlay cover-slate"></div>
+     <!--<div class="panel-cover--overlay cover-slate"></div>-->
   </header>
   <!-- End Header -->
 
   <!-- Template Main JS File -->
-  <script src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/js/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/js/owl.carousel.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/js/main.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script src="./js/main.js"></script>
 
   <script>
         var chakhsu = function (r) {
