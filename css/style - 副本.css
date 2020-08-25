@@ -49,6 +49,7 @@ body {
   overflow-x: hidden;
 }
 
+/*
 .gnsimg :hover {
   -moz-transform: scale(1.0825);
   -webkit-transform: scale(1.0825);
@@ -60,7 +61,7 @@ body {
   filter: blur(0.2rem);
   overflow-y: auto;
   overflow-x: hidden;
-}
+}*/
 
 @media (min-width: 1024px) {
   .gnsimg {
