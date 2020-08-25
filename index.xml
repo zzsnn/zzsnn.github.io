@@ -20,8 +20,8 @@ var _hmt = _hmt || [];
   <link href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/favicon.png" rel="icon">
   <link href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/favicon.png" rel="apple-touch-icon">
   <!-- Template Main CSS File -->
-  <link href="./css/style.css" rel="stylesheet">
-  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/css/style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
   <!-- ======= 背景特效 ======= -->
@@ -69,9 +69,9 @@ var _hmt = _hmt || [];
   <!-- End Header -->
 
   <!-- Template Main JS File -->
-  <script src="./js/jquery.min.js"></script>
-  <script src="./js/owl.carousel.min.js"></script>
-  <script src="./js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/js/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/js/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/js/main.js"></script>
 
   <script>
         var chakhsu = function (r) {
