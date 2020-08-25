@@ -69,7 +69,7 @@
         class: 'mobile-nav d-lg-none'
       });
       $('body').append($mobile_nav);
-      $('body').prepend('<button type="button" class="mobile-nav-toggle d-lg-none"><i class="fa fa-align-right"></i></button>');
+      $('body').prepend('<button type="button" class="mobile-nav-toggle d-lg-none"><i class="iconfont icon-menu"></i></button>');
       $('body').append('<div class="mobile-nav-overly"></div>');
   
       $(document).on('click', '.mobile-nav-toggle', function(e) {
