@@ -255,7 +255,7 @@ p#bginfo a {
   transform: translate3d(0,150px,0);
   -webkit-transition: all 2s cubic-bezier(0.19,1,0.22,1);
   -moz-transition: all 2s cubic-bezier(0.19,1,0.22,1);
-  transition: all 2s cubic-bezier(0.19,1,0.22,1)
+  transition: all 2s cubic-bezier(0.19,1,0.22,1);
 }
 
 .iUp.up {
@@ -264,7 +264,30 @@ p#bginfo a {
   -moz-transform: translate3d(0,0,0);
   -ms-transform: translate3d(0,0,0);
   -o-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0)
+  transform: translate3d(0,0,0);
+}
+
+@media only screen and (max-width: 768px) {
+    .iUp {
+        opacity: 1;
+        -webkit-transform: translate3d(0,100px,0);
+        -moz-transform: translate3d(0,100px,0);
+        -ms-transform: translate3d(0,100px,0);
+        -o-transform: translate3d(0,100px,0);
+        transform: translate3d(0,0px,0);
+        -webkit-transition: all 2s cubic-bezier(0.19,1,0.22,1);
+        -moz-transition: all 2s cubic-bezier(0.19,1,0.22,1);
+        transition: all 2s cubic-bezier(0.19,1,0.22,1);
+      }
+      
+    .iUp.up {
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
 }
 
 .header-tops {
@@ -289,6 +312,7 @@ p#bginfo a {
   transition: width 0.6s ease;
 }
 
+/*
 .panel-cover--overlay {
   display: block;
   position: absolute;
@@ -300,7 +324,7 @@ p#bginfo a {
   z-index: 1;
   -moz-opacity: .55;
   opacity: .55;
-}
+}*/
 
 .navigation-wrapper {
   position: relative;
