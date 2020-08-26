@@ -1264,6 +1264,13 @@ p#bginfo a {
   transform: translate3d(0, 0, 0)
 }
 
+@media only screen and (max-width: 768px) {
+  .iUp {
+      opacity: 1;
+      transform: translate3d(0,0px,0);
+  }
+}
+
 .header-tops {
   display: block;
   position: fixed;
