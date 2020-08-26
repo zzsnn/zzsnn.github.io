@@ -9,11 +9,6 @@ a {
   color: #18d26e;
 }
 
-a:hover {
-  color: #35e888;
-  text-decoration: none;
-}
-
 h1,h2,h3,h4,h5,h6 {
   font-family: "Raleway",sans-serif;
 }
@@ -320,6 +315,7 @@ p#bginfo a {
   z-index: 800;
 }
 
+/*
 .kratos-overlay {
   position: absolute!important;
   pointer-events: none;
@@ -334,7 +330,7 @@ p#bginfo a {
 .filter {
   display: none;
   left: 0;
-}
+}*/
 
 .gnsimg {
   content: "";
