@@ -9,12 +9,6 @@ a {
   color: #18d26e;
 }
 
-/*
-a:hover {
-  color: #35e888;
-  text-decoration: none;
-}*/
-
 h1,h2,h3,h4,h5,h6 {
   font-family: "Raleway",sans-serif;
 }
@@ -89,27 +83,6 @@ h1,h2,h3,h4,h5,h6 {
 
 #header .social-links a:hover {
   background: #18d26e;
-}
-
-@media (max-width: 992px) {
-  #header h1 {
-      font-size:36px;
-  }
-
-  #header h2 {
-      font-size: 20px;
-      line-height: 30px;
-  }
-
-  #header .social-links {
-      margin-top: 15px;
-  }
-
-  #header .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
 }
 
 .nav-menu {
@@ -290,20 +263,6 @@ p#bginfo a {
   transition: width 0.6s ease;
 }
 
-/*
-.panel-cover--overlay {
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0,0,0,0.45);
-  z-index: 1;
-  -moz-opacity: .55;
-  opacity: .55;
-}*/
-
 .navigation-wrapper {
   position: relative;
   z-index: 800;
@@ -313,23 +272,6 @@ p#bginfo a {
   position: relative;
   z-index: 800;
 }
-
-/*
-.kratos-overlay {
-  position: absolute!important;
-  pointer-events: none;
-  width: 100%;
-  top: 1;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-}
-
-.filter {
-  display: none;
-  left: 0;
-}*/
 
 .gnsimg {
   content: "";
@@ -347,8 +289,7 @@ p#bginfo a {
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
-  overflow-y: auto;
-  overflow-x: hidden;
+  background-attachment: fixed;
 }
 
 @media only screen and (max-width: 768px) {
@@ -371,6 +312,21 @@ p#bginfo a {
     opacity: 1;
     transform: translate3d(0,0px,0);
   }
+  #header h1 {
+      font-size:36px;
+  }
+  #header h2 {
+      font-size: 20px;
+      line-height: 30px;
+  }
+  #header .social-links {
+      margin-top: 15px;
+  }
+  #header .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
 }
 
 /*
@@ -387,8 +343,39 @@ p#bginfo a {
   overflow-x: hidden;
 }*/
 
-@media (min-width: 1024px) {
-  .gnsimg {
-      background-attachment: fixed;
-  }
+/*
+.kratos-overlay {
+  position: absolute!important;
+  pointer-events: none;
+  width: 100%;
+  top: 1;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
 }
+
+.filter {
+  display: none;
+  left: 0;
+}*/
+
+/*
+.panel-cover--overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.45);
+  z-index: 1;
+  -moz-opacity: .55;
+  opacity: .55;
+}*/
+
+/*
+a:hover {
+  color: #35e888;
+  text-decoration: none;
+}*/
