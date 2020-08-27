@@ -102,6 +102,7 @@ button,select {
     margin-left: auto
 }
 
+/*
 @media (min-width: 576px) {
     .container {
         max-width:540px
@@ -127,7 +128,7 @@ button,select {
     .container,.container-lg,.container-md,.container-sm,.container-xl {
         max-width:1140px
     }
-}
+}*/
 
 .d-none {
     display: none!important
