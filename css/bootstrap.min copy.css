@@ -102,33 +102,6 @@ button,select {
     margin-left: auto
 }
 
-@media (min-width: 576px) {
-    .container {
-        max-width:540px
-    }
-    .container,.container-sm {
-        max-width:540px
-    }
-}
-
-@media (min-width: 768px) {
-    .container {
-        max-width:720px
-    }
-    .container,.container-md,.container-sm {
-        max-width:720px
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        max-width:1140px
-    }
-    .container,.container-lg,.container-md,.container-sm,.container-xl {
-        max-width:1140px
-    }
-}
-
 .d-none {
     display: none!important
 }
@@ -195,3 +168,31 @@ button,select {
 .icon-QQ:before {
     content: "\e609";
 }
+
+/*
+@media (min-width: 576px) {
+    .container {
+        max-width:540px
+    }
+    .container,.container-sm {
+        max-width:540px
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width:720px
+    }
+    .container,.container-md,.container-sm {
+        max-width:720px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width:1140px
+    }
+    .container,.container-lg,.container-md,.container-sm,.container-xl {
+        max-width:1140px
+    }
+}*/

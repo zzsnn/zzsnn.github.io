@@ -26,10 +26,9 @@ var _hmt = _hmt || [];
   <link href="./css/bootstrap.min.css" rel="stylesheet">
   
   <style type="text/css">
-    .gnsimg{content:"";position:fixed;-moz-transform:scale(1);-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);left:0;right:0;top:0;height:100vh;background-image:url("https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/2.jpg");background-position:center;background-size:cover;background-repeat:no-repeat;z-index:-1;background-attachment:fixed;}@media only screen and (max-width: 768px) {.gnsimg {content: "";position: fixed;left: 0;right: 0;top: 0;height: 100vh;background-image: url("https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/3.jpg");background-position: center;background-size: cover;background-repeat: no-repeat;z-index: -1;overflow-y: auto;overflow-x: hidden;}}
+    .gnsimg{content:"";position:fixed;-moz-transform:scale(1);-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);left:0;right:0;top:0;height:100vh;background-image:url("https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/2.jpg");background-position:center;background-size:cover;background-repeat:no-repeat;z-index:-1;background-attachment:fixed;}@media only screen and (max-width:768px){.gnsimg{background-image:url("https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/3.jpg");}}
   </style>
 
-  <noscript><link rel="stylesheet" href="./css/style.css"></noscript>
 </head>
 <body>
   <!-- ======= 背景特效 ======= -->
