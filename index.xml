@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<!--
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -10,7 +9,6 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
--->
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
