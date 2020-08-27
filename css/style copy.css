@@ -157,7 +157,6 @@ h1,h2,h3,h4,h5,h6 {
   border: 1px solid #fff;
   border-radius: 20px;
   margin-bottom: 15em;
-  text-align: center;
 }
 
 .mobile-nav {
@@ -175,6 +174,7 @@ h1,h2,h3,h4,h5,h6 {
   border-radius: 10px;
   padding: 10px 0;
   border: 2px solid rgba(255,255,255,0.12);
+  text-align: center;
 }
 
 .mobile-nav * {
