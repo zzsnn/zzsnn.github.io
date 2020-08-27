@@ -14,7 +14,7 @@ var _hmt = _hmt || [];
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5.0" />
   <title>折纸少年 | 个人主页</title>
   <meta name="description" content="/资源分享/免费APP/免费软件/苹果破解软件/安卓破解软件">
   <meta name="keywords" content="/资源分享/免费APP/免费软件/苹果破解软件/安卓破解软件">
@@ -56,13 +56,13 @@ var _hmt = _hmt || [];
 
    <!--  <hr class="panel-cover_divider"> -->
   <div class="bgin-fo iUp">
-	  <p id="bginfo" class="d-lg-block">Music ID <a href="https://music.163.com/#/song?id=1419095195" target="_blank">1419095195</a>
+	  <p id="bginfo" class="d-lg-block">Music ID <a href="https://music.163.com/#/song?id=1419095195" rel="noopener" target="_blank">1419095195</a>
 	  <br>
-	  Picture by <a href="https://bird.ioliu.cn/v1/?url=https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=8" target="_blank">IMGAES</a>
+	  Picture by <a href="https://bird.ioliu.cn/v1/?url=https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=8" rel="noopener" target="_blank">IMGAES</a>
 	  <br>
     Survival Time <a href="#"><span id="sitetime"></span></a>
     <br>
-    Copyright © 2020 by 本站由 <a href="https://github.com/" target="_blank">Github 提供支持</a>
+    Copyright © 2020 by 本站由 <a href="https://github.com/" rel="noopener" target="_blank">Github 提供支持</a>
 	  </p>
     </div>
      <!-- 黑色背景备份 -->
