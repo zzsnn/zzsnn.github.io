@@ -373,12 +373,6 @@ p#bginfo a {
   }
 }
 
-@media (min-width: 1024px) {
-  .gnsimg {
-      background-attachment: fixed;
-  }
-}
-
 /*
 .gnsimg :hover {
   -moz-transform: scale(1.0825);
@@ -392,3 +386,9 @@ p#bginfo a {
   overflow-y: auto;
   overflow-x: hidden;
 }*/
+
+@media (min-width: 1024px) {
+  .gnsimg {
+      background-attachment: fixed;
+  }
+}
