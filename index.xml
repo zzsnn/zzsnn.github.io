@@ -11,21 +11,34 @@ var _hmt = _hmt || [];
 </script>
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<meta content="width=device-width, initial-scale=1.0" name="viewport">-->
+  <!--<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5.0" />-->
+  <!--<meta name="description" content="/资源分享/免费APP/免费软件/苹果破解软件/安卓破解软件">-->
+  <!--<meta name="keywords" content="/资源分享/免费APP/免费软件/苹果破解软件/安卓破解软件">-->
+  <meta name="description" content="Dmego Home">
+  <meta name="keywords" content="Dmego,Homepage">
+  <meta name="author" content="Dmego">
   <title>折纸少年 | 个人主页</title>
-  <meta name="description" content="/资源分享/免费APP/免费软件/苹果破解软件/安卓破解软件">
-  <meta name="keywords" content="/资源分享/免费APP/免费软件/苹果破解软件/安卓破解软件">
-  <!-- Favicons -->
-  <link href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/favicon.png" rel="icon">
-  <link href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/favicon.png" rel="apple-touch-icon">
-  <!-- Template Main CSS File -->
-  <link rel="preload" href="./css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link href="./css/bootstrap.min.css" rel="stylesheet">
-  
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+  <link rel="icon" href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/favicon.png">
+  <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/favicon.png">
+
+  <!--<link rel="preload" href="./css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">-->
+  <!--<link href="./css/bootstrap.min.css" rel="stylesheet">-->
   <style type="text/css">
     .gnsimg{content:"";position:fixed;-moz-transform:scale(1);-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);left:0;right:0;top:0;height:100vh;background-image:url("https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/2.jpg");background-position:center;background-size:cover;background-repeat:no-repeat;z-index:-1;background-attachment:fixed;}@media only screen and (max-width: 768px) {.gnsimg {content: "";position: fixed;left: 0;right: 0;top: 0;height: 100vh;background-image: url("https://cdn.jsdelivr.net/gh/zzsnn/zzsnn.github.io/images/3.jpg");background-position: center;background-size: cover;background-repeat: no-repeat;z-index: -1;overflow-y: auto;overflow-x: hidden;}}
   </style>
+
+  <!--iup淡出-->
+  <script language="javaScript">
+  function checkBrowserForVersion4(){
+  var x=navigator.appVersion;
+  y=x.substring(0,4);
+  if(y>=4) Effect();}
+  </script>
 
 </head>
 <body>
