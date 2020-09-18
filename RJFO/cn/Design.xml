@@ -83,7 +83,7 @@ var _hmt = _hmt || [];
                 </header>
                 <ul id="main-menu" class="main-menu">
                     <li>
-                        <a href="../cn/index.html">
+                        <a href="https://zzsn.vercel.app/">
                             <i class="fa fa-smile-o"></i>
                             <span class="title">破解软件</span>
                         </a>
