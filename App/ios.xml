@@ -12,14 +12,11 @@
     <!-- 初始化样式 -->
     <link href="css/initialize.css" rel="stylesheet" type="text/css">
     <link href="css/index.css" rel="stylesheet" type="text/css">
-    <link href="css/swiper.min.css" rel="stylesheet" type="text/css">
     <link href="css/buttons.css" rel="stylesheet" type="text/css">
-    <link href="css/dialog.css" rel="stylesheet" type="text/css">
 
     <script type="text/javascript" src="js/swiper.min.js"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="js/mdialogmin.js"></script>
 
      <!-- 判断wind端跳转 -->
      <!--<script type="text/javascript">
@@ -44,18 +41,36 @@
         $(function () {
             $.ajax({
                 type: "post",
-                url: "/index_sweetalert",
+                url: "/ios.html",
                 dataType: "json",
                 success: function (result) { // 当请求成功时运行的函数
-                    Dialog.init('&emsp;&emsp;&emsp;&emsp;🏡&emsp;' + result[0]["text1"] +'</br></br>🕐&emsp;更新日期：' + result[0]["time"] + '</br>🤖&emsp;' + result[0]["text2"] + '</br>🗳&emsp;' + result[0]["text3"] + '</br></br>✨&emsp;' + result[0]["text4"] + '<br> 🕸&nbsp本站网址：zzsnn.github.io', 3000);
+                    Dialog.init('&emsp;&emsp;&emsp;&emsp;🏡&emsp;' + result[0]["text1"] +'</br></br>🕐&emsp;更新日期：' + result[0]["time"] + '</br>🤖&emsp;' + result[0]["text2"] + '</br>🗳&emsp;' + result[0]["text3"] + '</br></br>✨&emsp;' + result[0]["text4"] + '<br> 🕸&nbsp本站网址：zzsn.vercel.app', 3000);
                 },
                 error: function (result) {
-                    Dialog.init('<div id="text">⚠️友情提醒⚠️</div> <div id="text1">免费证书状态：正常✅</div> <font text-align: center; color="#FF69B4">💢&nbsp证书部分手机会闪退，请自测</font><br> <div id="text2">🕸&nbsp本站网址：zzsnn.github.io</div>', 3000);
+                    Dialog.init('<div id="text">⚠️友情提醒⚠️</div> <div id="text1">免费证书状态：正常✅</div> <font text-align: center; color="#FF69B4">💢&nbsp证书部分手机会闪退，请自测</font><br> <div id="text2">🕸&nbsp本站网址：zzsn.vercel.app</div>', 3000);
                 }
             })
 
         })
     </script>
+
+    <!-- 提示框 -->
+    <!--<script type="text/javascript">
+        $(function () {
+            $.ajax({
+                type: "post",
+                url: "/ios.html",
+                dataType: "json",
+                success: function (result) { // 当请求成功时运行的函数
+                    Dialog.init('&emsp;&emsp;&emsp;&emsp;🏡&emsp;' + result[0]["text1"] +'</br></br>🕐&emsp;更新日期：' + result[0]["time"] + '</br>🤖&emsp;' + result[0]["text2"] + '</br>🗳&emsp;' + result[0]["text3"] + '</br></br>✨&emsp;' + result[0]["text4"] + '<br> 🕸&nbsp本站网址：zzsn.vercel.app', 3000);
+                },
+                error: function (result) {
+                    Dialog.init('<div id="text">⚠️友情提醒⚠️</div> <div id="text1">免费证书状态：🕐9.18日掉签 ❌</div> <div id="text2"><font text-align:center; color="#FF69B4">💢&nbsp请自行查看 无视掉签教程</font></div> <div id="text3">🤖&nbsp本站网址：zzsn.vercel.app</div>', 3000);
+                }
+            })
+
+        })
+    </script>-->
 
     <script>
         var ua = navigator.userAgent.toLowerCase();
@@ -113,20 +128,11 @@
                 <div class="swiper-slide"></div> -->
                                 
                 <div class="swiper-slide" data-swiper-slide-index="0" style="width: 375px;">
-                <a href="javascript:;" target="_Blank">
-                <img src="https://i.loli.net/2020/04/24/QqtVeM5dPGAT2oK.jpg"></a></div>
+                <a href="#" target="_Blank">
+                <img src="images/QqtVeM5dPGAT2oK.jpg"></a></div>
                 <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1" style="width: 375px;">
-                <a href="https://cshareys.com" target="_Blank">
-                <img src="https://i.loli.net/2020/07/13/imIrqltFDJYh86d.jpg"></a></div>
-                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="2" style="width: 375px;">
-                <a href="https://tb.cxzy.top" target="_Blank">
-                <img src="https://i.loli.net/2020/07/23/MBe29t5xKSwWU6l.jpg"></a></div>
-                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="3" style="width: 375px;">
-                <a href="https://sc.csharezy.com" target="_Blank">
-                <img src="https://s1.ax1x.com/2020/08/28/dIaVud.jpg"></a></div>
-                <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 375px;">
-                <a href="javascript:;" target="_Blank">
-                <img src="https://i.loli.net/2020/04/24/QqtVeM5dPGAT2oK.jpg"></a></div></div>
+                <a href="https://zzsnn.gitee.io/MLJS/" target="_Blank">
+                <img src="images/imIrqltFDJYh86d.jpg"></a></div></div>
                             
                 <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
         </div>
@@ -156,76 +162,76 @@
 <!-- app -->
 <div class="item" style="display: block"><ul>
 
-<li class="software"><div class="software-icon">
-<img src="images/ios/appsc.jpg" alt></div>
+<li class="software"><div class="software-icon"><img src="images/ios/and.jpg" alt></div>
+<div class="software-describe"><div class="name_type">
+<span class="name">Android软件合集<span class="type qianming_no">非签名</span></span></div>
+<span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;Android软件合集</em></span>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<div class="software-down">
+<a href="https://chja.lanzoui.com/b00nhnuhg" class="button button-glow button-rounded button-raised button-primary">查看</a></div></li>
+
+<li class="software"><div class="software-icon"><img src="images/ios/appsc.jpg" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">苹果企业证书<span class="type qianming_no">非签名</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;配合签名软件(证书随时失效)</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
-<a href="https://zzsn.utools.club/Origamiapp/AppCake.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
+<a href="https://zzsncloud.herokuapp.com/zzsnn/IOS/shen%E4%BC%81%E4%B8%9A%E8%AF%81%E4%B9%A6%EF%BC%88%E6%AD%A3%E5%B8%B8%E4%B8%AD%EF%BC%89.zip" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
-<li class="software"><div class="software-icon">
-<img src="images/ios/qsq.jpg" alt></div>
+<li class="software"><div class="software-icon"><img src="images/ios/qsq.jpg" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">轻松签<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;免越狱对IPA进行签名与安装</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/qingsongqian.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
-<li class="software"><div class="software-icon">
-<img src="images/ios/AltStore.jpg" alt></div>
+<li class="software"><div class="software-icon"><img src="images/ios/AltStore.jpg" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">AltStore<span class="type qianming_no">官方</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;免越狱对IPA签名工具 需要电脑</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="https://altstore.io/" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
-<li class="software"><div class="software-icon">
-<img src="images/ios/EyJzD1tghO9jKSk.webp.jpg" alt></div>
+<li class="software"><div class="software-icon"><img src="images/ios/EyJzD1tghO9jKSk.webp.jpg" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">IOS无视证书失效<span class="type qianming_no">非签名</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;无视证书失效安装应用的详细教程</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
-<a href="https://zzsn.utools.club/Origamiapp/AppCake.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
+<a href="https://zzsn.utools.club/Origamiapp/AppCake.plist" class="button button-glow button-rounded button-raised button-primary">查看</a></div></li>
 
-<li class="software"><div class="software-icon">
-<img src="images/ios/AppCake.png" alt></div>
+<li class="software"><div class="software-icon"><img src="images/ios/AppCake.png" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">AppCake<span class="type qianming_no">官方</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;免越狱对IPA签名工具,企业版随时掉签</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
-<a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/AppCake.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
+<a href="https://www,iphonecake.com/app/" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
-<li class="software"><div class="software-icon">
-<img src="images/ios/ipa.png" alt></div>
+<li class="software"><div class="software-icon"><img src="images/ios/ipa.png" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">IPA下载器<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;下载网站IPA文件</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/ipaxiazai.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
-<li class="software"><div class="software-icon">
-<img src="images/ios/qqyinyue.jpg" alt></div>
+<li class="software"><div class="software-icon"><img src="images/ios/qqyinyue.jpg" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">QQ音乐<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe">
 <em><i><img src="./images/c.png" alt=""></i>&nbsp;V9.55全功能破解版</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/qqyinyue.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
-<li class="software"><div class="software-icon">
-<img src="images/ios/kw.jpg" alt></div>
+<li class="software"><div class="software-icon"><img src="images/ios/kw.jpg" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">酷我音乐<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V9.4.0 完美解锁VIP权限</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/kuwoyinyue.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -233,7 +239,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">钉钉助手<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;虚拟WIFI定位打卡软件</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/dingding.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -241,39 +247,39 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">哗哩哗哩概念<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;破解大会员</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
-<a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/NPlayer.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
+<a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/hualihuali.plist" class="button button-glow button-rounded button-raised button-primary">维护</a></div></li>
 
 <li class="software"><div class="software-icon"><img src="images/ios/xx.png" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">小小影视<span class="type qianming_no">非签名</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;官方正版</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
-<a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/xiaoxiaoyingshi.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
+<a href="https://xiao1.app/" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
 <li class="software"><div class="software-icon"><img src="images/ios/wy.png" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">网易云音乐<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V5.7.2 完美破解 黑胶会员vip权限</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
-<a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/wangyiyun.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
+<a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/wangyiyun572.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
 <li class="software"><div class="software-icon"><img src="images/ios/wy.png" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">网易云音乐<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V6.4.4 不完美破解 下载vip音乐</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
-<a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/wangyiyun.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
+<a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/wangyiyun644.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
 <li class="software"><div class="software-icon"><img src="images/ios/wy.png" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">网易云一键刷歌<span class="type qianming_yes">签名类</span></span></div>
-<span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V6.4.4 不完美破解 下载vip音乐</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;一键刷满300首歌曲 提升等级</em></span>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="http://zzsn.epizy.com/" class="button button-glow button-rounded button-raised button-primary">获取</a></div></li>
 
@@ -281,15 +287,15 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">蛋播星球TF<span class="type qianming_no">非签名</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;官方正版</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
-<a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/danboxingqiu.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
+<a href="https://z234009184.github.io/" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
 <li class="software"><div class="software-icon"><img src="images/ios/npp.png" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">NPlayer播放器<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;可播放所有视频格式和编码,价值68RMB</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/NPlayer.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -297,7 +303,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">DJ多多<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;破解VIP全功能开启，劲爆DJ应有尽有</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/DJdd.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -305,15 +311,15 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">南瓜影视TF<span class="type qianming_no">非签名</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;官方正版</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
-<a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/nanguayingshi.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
+<a href="https://po6.app/" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
 <li class="software"><div class="software-icon"><img src="images/ios/mvup.jpg" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">免VIP看视频<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;全网视频解析 去广告</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/mianvip.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -321,7 +327,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">X.cat视频解析<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;商店原价45元,已经下架！</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/xcat.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -329,7 +335,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">氧气听书<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;解锁VIP权限,在线听书</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/yangqitingshu.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -337,7 +343,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">迅雷Beta<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V6.0.1破解不限速下载</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/xunlei.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -345,7 +351,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">奇热小说<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;解除VIP不限书卷</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/qirexiaoshuo.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -353,7 +359,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">百度云<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V9.6.1 破解VIP下载不限速</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/kmi.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -361,7 +367,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">K米<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V5.0.2 破解VIP</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/kmi.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -369,7 +375,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">爱奇艺<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V10.6.1 去广告 共存版</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/aiqiyi.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -377,7 +383,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">优酷视频<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V8.0.6 去除广告 共存版</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/youku.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -385,15 +391,15 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">芒果TV<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V6.1.3 去除广告 共存版</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
-<a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/youku.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
+<a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/mangguotv.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
 <li class="software"><div class="software-icon"><img src="images/ios/al.jpg" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">ALook浏览器<span class="type qianming_no">非签名</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;共享正版 免验证 直接安装使用</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/alook.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -402,7 +408,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">乐网<span class="type qianming_no">非签名</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;共享正版 修复越狱后cydia无法联网</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/lewang.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -410,7 +416,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">JSBox学习写代码<span class="type qianming_no">非签名</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V1.45 爱思助手修复弹窗免验证</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/jsbox.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -418,7 +424,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">Shadowrocket<span class="type qianming_no">非签名</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;共享正版免验证,直接安装使用</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/Shadowrocket.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -426,7 +432,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">Shu 文件预览<span class="type qianming_no">非签名</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V1.1.0 共享正版免验证,直接安装使用</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/Shu.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -435,7 +441,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">Thor Http<span class="type qianming_no">非签名</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V1.3.4 正版免验证,同步助手修复弹窗</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/Thor.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 </ul></div>
@@ -447,7 +453,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">微无界<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;多功能 消息防测回 虚拟定位 抢红包 已破解</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/weiwujie.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -455,7 +461,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">微信老猫<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;多功能 消息防测回 虚拟定位 抢红包</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/weixinlaomao.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -463,15 +469,15 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">微信多开功能<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V7.0.12多功能 消息防测回 虚拟定位 抢红包</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
-<a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/weixinlaomao.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
+<a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/weixinduokaigongneng.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
 <li class="software"><div class="software-icon"><img src="images/ios/wx.jpg" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">微信小尾巴<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V7.0.3 多功能 消息防测回 虚拟定位 抢红包</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/weixinduokai.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -479,7 +485,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">微信多开<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V7.0.15 多开微信纯净版</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/weixinduokai.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -487,7 +493,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">QQ多开<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;抢红包 防撤回 验证码随便输入</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/qqduokai.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -496,7 +502,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">QQ多开新版<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;抢红包 防撤回 多功能</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/qqduokaixinban.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -504,7 +510,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">QQ多开蚁站<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;抢红包 防撤回 多功能</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/qqduokaiyizhan.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 </ul></div>
@@ -516,7 +522,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">RootlessJB<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V2.1 半越狱 内置Filza和Reprovision 无cydia 支持IOS12.0~12.4.8</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/RootlessJB.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -524,7 +530,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">Saily<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V0.6 RootlessJB专用</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/Saily.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -533,7 +539,7 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">Unc0ver<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;V5.3.1 支持IOS11.0~13.5 硬件A7~A13</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/Unc0ver.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 
@@ -541,23 +547,23 @@
 <div class="software-describe"><div class="name_type">
 <span class="name">Unc0ver官方<span class="type qianming_no">非签名</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;Unc0ver官方版 支持IOS11.0~13.5 硬件A7~A13</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
-<a href="https://www.unc0ver.dev/" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
+<a href="https://www.unc0ver.dev/" class="button button-glow button-rounded button-raised button-primary">查看</a></div></li>
 
 <li class="software"><div class="software-icon"><img src="images/ios/ch.jpg" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">checkra1n<span class="type qianming_no">非签名</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;需要MAC系统/linux/黑苹果</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
-<a href="https://checkra.in/" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
+<a href="https://checkra.in/" class="button button-glow button-rounded button-raised button-primary">查看</a></div></li>
 
 <li class="software"><div class="software-icon"><img src="images/ios/aodesai.jpg" alt></div>
 <div class="software-describe"><div class="name_type">
 <span class="name">Odyssey<span class="type qianming_yes">签名类</span></span></div>
 <span class="describe"><em><i><img src="./images/c.png" alt=""></i>&nbsp;支持IOS13.0~13.5 硬件A7~A13</em></span>
-<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-08-22</em></span></div>
+<span class="time"><em><i><img src="./images/s.png" alt=""></i>&nbsp;2020-09-18</em></span></div>
 <div class="software-down">
 <a href="itms-services://?action=download-manifest&amp;url=https://zzsn.utools.club/Origamiapp/Odyssey.plist" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
 </ul></div></div></div>
@@ -595,7 +601,7 @@
     </section>
 
     <div class="copyright">
-        <span>Copyright © 2020 zzsnn.github.io</span>
+        <span>Copyright © 2020 zzsn.vercel.app</span>
         <span>Design by 执着い源代码</span>
     </div>
 
@@ -603,10 +609,10 @@
 
     <!-- 尾部 -->
     <div class="footer">
-        <a href="index.html"><img src="images/index1.png" alt> </a>
-        <a href="ios.html"><img src="images/ios1.png" alt> </a>
-        <a href="android.html"><img src="images/android2.png" alt> </a>
-        <a href="fuli.html"><img src="images/fuli1.png" alt> </a>
+        <a href="index.html"><img src="images/index1.png" alt=""> </a>     
+        <a href="ios.html"><img src="images/ios2.png" alt=""> </a>  
+        <!--<a href="android.html"><img src="images/android1.png" alt=""> </a>-->
+        <a href="fuli.html"><img src="images/fuli1.png" alt=""> </a>
     </div>
 
 </body>
