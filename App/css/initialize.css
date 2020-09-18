@@ -1,0 +1,56 @@
+body {
+    /* 初始化 */
+    width: 100%;
+    min-width: 320px;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: -apple-system, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    line-height: 1.5;
+    background-color: hsla(0, 0%, 95%, 1);
+    /* margin-bottom: 20px; */
+    padding-bottom: 45px;
+    font-family: -apple-system,SF UI Text,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+    /* 去除a标签点击色 */
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input{  
+	/* background:none;   */
+	outline:none;  
+	border:1px solid #e2e2e2;
+}
+input:focus{   
+    border:none;
+    outline:none;  
+	border:1px solid #e2e2e2;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
