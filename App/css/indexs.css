@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+}
+
+.body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .scroll_view {
+        width: calc(100vw - 60px);
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .body {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .scroll_view {
+        width: calc(500px - 40px);
+    }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 2px;
+}
+
+.caption {
+    color: #bbb;
+    font-size: 16px;
+}
+
+.scroll_view {
+    /*overflow-x: scroll;*/
+    overflow-y: hidden;
+    margin: 10px;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.scroll_view > .img_card {
+    background-color: #ccc;
+    width: 450px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+}
+
+.center {
+    text-align: center;
+}
+
+.package {
+    margin: 20px 0px 30px 10px;
+}
+
+.package > img {
+    border-radius: 20px;
+    width: 65px;
+    height: 65px;
+    float: left;
+}
+
+.package_info {
+    margin-left: 90px;
+}
+
+.package_name {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.package_caption {
+    margin-top: 7px;
+    color: #999;
+}
+
+.cell > .title {
+    float: left;
+    color: #999;
+}
+
+.cell > .text {
+    float: right;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.banner_underlay {
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+    border-radius: 8px;
+    z-index: -2;
+    margin-bottom: 25px;
+    top: 0;
+}
+
+.changelog {
+    display: none;
+}
+
