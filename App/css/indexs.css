@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .scroll_view > .img_card {
     background-color: #ccc;
-    width: 450px;
+    width: 300px;
     margin: 5px;
     border-radius: 10px;
     font-weight: bold;
