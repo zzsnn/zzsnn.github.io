@@ -10,7 +10,7 @@
                <key>kind</key>
                <string>software-package</string>
                <key>url</key>
-               <string>https://zzsncloud.herokuapp.com/zzsn/IOS/%E6%B0%A7%E6%B0%94%E5%90%AC%E4%B9%A6.ipa</string>
+               <string>https://zzsncloud.herokuapp.com/zzsnn/IOS/unc0ver5.3.1.ipa</string>
              </dict>
              <dict>
                <key>kind</key>
@@ -38,7 +38,7 @@
              <key>kind</key>
              <string>software</string>
              <key>title</key>
-             <string><![CDATA[闪电签]]></string>
+             <string><![CDATA[Unc0ver越狱5.3.1]]></string>
            </dict>
         </dict>
       </array>
