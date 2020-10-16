@@ -10,7 +10,7 @@
                <key>kind</key>
                <string>software-package</string>
                <key>url</key>
-               <string>https://zzsncloud.herokuapp.com/zzsnn/IOS/zb/Shu%20%E6%96%87%E4%BB%B6%E9%A2%84%E8%A7%88v1.1.1.ipa</string>
+               <string>https://zzsncloud.herokuapp.com/zzsnn/IOS/P%E7%AB%99%E5%8A%A9%E6%89%8B.ipa</string>
              </dict>
              <dict>
                <key>kind</key>
@@ -38,7 +38,7 @@
              <key>kind</key>
              <string>software</string>
              <key>title</key>
-             <string><![CDATA[Shu文件预览]]></string>
+             <string><![CDATA[p站助手商店收费版]]></string>
            </dict>
         </dict>
       </array>
