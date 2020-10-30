@@ -10,7 +10,7 @@
                <key>kind</key>
                <string>software-package</string>
                <key>url</key>
-               <string>https://zzsncloud.herokuapp.com/zzsnn/IOS/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%906.4.4.ipa</string>
+               <string>https://zzsncloud.herokuapp.com/zzsnn/IOS/%E9%92%89%E9%92%89%E8%87%AA%E5%8A%A8%E6%89%93%E5%8D%A1.ipa</string>
              </dict>
              <dict>
                <key>kind</key>
@@ -38,7 +38,7 @@
              <key>kind</key>
              <string>software</string>
              <key>title</key>
-             <string><![CDATA[网易云音乐6.4.4]]></string>
+             <string><![CDATA[钉钉自动打卡助手]]></string>
            </dict>
         </dict>
       </array>
