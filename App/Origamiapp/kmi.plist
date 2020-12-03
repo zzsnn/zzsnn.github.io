@@ -4,38 +4,38 @@
 <dict>
 	<key>items</key>
 	<array>
-	<dict>
-	<key>assets</key>
-	<array>
-	<dict>
-	<key>kind</key>
-	<string>software-package</string>
-	<key>url</key>
-	<string>https://zzsncloud.herokuapp.com/zzsnn/IOS/K%E7%B1%B35.0.2.ipa</string>
-	</dict>
-	<dict>
-	<key>kind</key>
-	<string>display-image</string>
-	<key>needs-shine</key>
-	<true/>
-	<key>url</key>
-	<string>https://cdn.jsdelivr.net/gh/TheFine/theFine.github.io/img/avatar.jpg</string>
-	</dict>
-	</array>
-	<key>metadata</key>
-	<dict>
-	<key>bundle-identifier</key>
-	<string>com.rebeltwins.cookiesmustdie</string>
-	<key>bundle-version</key>
-	<string>1.0.0</string>
-	<key>kind</key>
-	<string>software</string>
-	<key>subtitle</key>
-	<string>执着いAppStore</string>
-	<key>title</key>
-	<string>K米</string>
-	</dict>
-	</dict>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://zzsncloud.herokuapp.com/zzsnn/IOS/K%E7%B1%B35.0.2.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://cdn.jsdelivr.net/gh/TheFine/theFine.github.io/img/avatar.jpg</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.evideo.diange</string>
+				<key>bundle-version</key>
+				<string>5.0.2</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>执着いAppStore</string>
+				<key>title</key>
+				<string>K米</string>
+			</dict>
+		</dict>
 	</array>
 </dict>
 </plist>

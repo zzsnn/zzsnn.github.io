@@ -25,9 +25,9 @@
 	<key>metadata</key>
 	<dict>
 	<key>bundle-identifier</key>
-	<string>com.rebeltwins.cookiesmustdie</string>
+	<string>com.kinemaster.app</string>
 	<key>bundle-version</key>
-	<string>1.0.0</string>
+	<string>4.10.2</string>
 	<key>kind</key>
 	<string>software</string>
 	<key>subtitle</key>

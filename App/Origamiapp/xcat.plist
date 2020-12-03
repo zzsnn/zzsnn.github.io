@@ -4,38 +4,38 @@
 <dict>
 	<key>items</key>
 	<array>
-	<dict>
-	<key>assets</key>
-	<array>
-	<dict>
-	<key>kind</key>
-	<string>software-package</string>
-	<key>url</key>
-	<string>https://zzsncloud.herokuapp.com/zzsnn/IOS/X.cat%E8%A7%86%E9%A2%91%E8%A7%A3%E6%9E%90.ipa</string>
-	</dict>
-	<dict>
-	<key>kind</key>
-	<string>display-image</string>
-	<key>needs-shine</key>
-	<true/>
-	<key>url</key>
-	<string>https://cdn.jsdelivr.net/gh/TheFine/theFine.github.io/img/avatar.jpg</string>
-	</dict>
-	</array>
-	<key>metadata</key>
-	<dict>
-	<key>bundle-identifier</key>
-	<string>com.rebeltwins.cookiesmustdie</string>
-	<key>bundle-version</key>
-	<string>1.0.0</string>
-	<key>kind</key>
-	<string>software</string>
-	<key>subtitle</key>
-	<string>执着いAppStore</string>
-	<key>title</key>
-	<string>X.cat抓取神器</string>
-	</dict>
-	</dict>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://zzsncloud.herokuapp.com/zzsnn/IOS/X.cat%E8%A7%86%E9%A2%91%E8%A7%A3%E6%9E%90.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://cdn.jsdelivr.net/gh/TheFine/theFine.github.io/img/avatar.jpg</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.observer.xcatpro</string>
+				<key>bundle-version</key>
+				<string>12.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>执着いAppStore</string>
+				<key>title</key>
+				<string>X.cat抓取神器</string>
+			</dict>
+		</dict>
 	</array>
 </dict>
 </plist>
