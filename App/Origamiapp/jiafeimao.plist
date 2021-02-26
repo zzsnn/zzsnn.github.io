@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://zzsncloud.herokuapp.com/zzsnn/IOS/%E5%8D%97%E7%93%9C%E5%BD%B1%E8%A7%86.ipa</string>
+					<string>https://zzsncloud.herokuapp.com/zzsnn/IOS/%E5%8A%A0%E8%8F%B2%E7%8C%AB%E5%BD%B1%E8%A7%86.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -25,15 +25,15 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.mengwuxingqiu.com</string>
+				<string>com.dongdongEntertainmentApp.www</string>
 				<key>bundle-version</key>
-				<string>1.1.0</string>
+				<string>3.0.6</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
 				<string>执着いAppStore</string>
 				<key>title</key>
-				<string>南瓜影视vip版</string>
+				<string>加菲猫影视</string>
 			</dict>
 		</dict>
 	</array>
