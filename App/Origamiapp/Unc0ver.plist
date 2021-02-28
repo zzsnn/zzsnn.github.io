@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://zzsncloud.herokuapp.com/zzsnn/IOS/unc0ver5.3.1.ipa</string>
+					<string>https://zzsncloud.herokuapp.com/zzsnn/IOS/unc0ver.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 				<key>subtitle</key>
 				<string>执着いAppStore</string>
 				<key>title</key>
-				<string>Unc0ver越狱5.3.1</string>
+				<string>Unc0ver6.0</string>
 			</dict>
 		</dict>
 	</array>
