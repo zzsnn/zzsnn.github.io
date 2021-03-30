@@ -1,0 +1,3 @@
+hostname=text.aigauss.com
+#西梅
+https://text.aigauss.com/v3/articles/list url script-request-body https://raw.githubusercontent.com/age174/-/main/ximei.js
