@@ -1,3 +1,6 @@
-hostname = app.hubonews.com
+hostname = app.hubonews.com, .*.top
 #西梅
 https://app.hubonews.com/v4/articles/list url script-request-body https://raw.githubusercontent.com/age174/-/main/ximei.js
+
+#云扫码
+^http://.+?[^/]/yunonline/v\d+/redirect/(?!undefined) url script-request-header https://raw.githubusercontent.com/age174/-/main/ysm.js
