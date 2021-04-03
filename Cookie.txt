@@ -4,6 +4,3 @@ https://app.hubonews.com/v4/articles/list url script-request-body https://raw.gi
 
 #云扫码
 ^http://.+?[^/]/yunonline/v\d+/redirect/(?!undefined) url script-request-header https://raw.githubusercontent.com/age174/-/main/ysm.js
-
-#百度云VIP倍速播放
-https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/mieqq/mieqq/master/baiduCloud.js
