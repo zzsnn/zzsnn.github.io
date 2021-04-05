@@ -1,6 +1,9 @@
-hostname = app.hubonews.com, .*.top,
+hostname = app.hubonews.com, .*.top, yd.wcyd168.com
 #西梅
 https://app.hubonews.com/v4/articles/list url script-request-body https://raw.githubusercontent.com/age174/-/main/ximei.js
 
 #云扫码
 ^http://.+?[^/]/yunonline/v\d+/redirect/(?!undefined) url script-request-header https://raw.githubusercontent.com/age174/-/main/ysm.js
+
+#文创阅读小程序
+^https://yd\.wcyd168\.com/hfTask/getUserByToken url script-request-header https://raw.githubusercontent.com/age174/-/main/wcxcx.js
