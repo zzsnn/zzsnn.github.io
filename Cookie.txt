@@ -6,4 +6,4 @@ https://app.hubonews.com/v4/articles/list url script-request-body https://raw.gi
 ^http://.+?[^/]/yunonline/v\d+/redirect/(?!undefined) url script-request-header https://raw.githubusercontent.com/age174/-/main/ysm.js
 
 #文创阅读小程序
-^https://yd\.wcyd168\.com/hfTask/getUserByToken url script-request-header https://raw.githubusercontent.com/age174/-/main/wcxcx.js
+^https://yd\.wcyd168\.com/hfTask/getUserByToken url script-request-body https://raw.githubusercontent.com/age174/-/main/wcxcx.js
