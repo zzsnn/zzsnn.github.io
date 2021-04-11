@@ -1,4 +1,7 @@
-﻿hostname = app.hubonews.com,
+﻿hostname = app.hubonews.com,cn77fio.cn
 
 #西梅
 https://app.hubonews.com/v4/articles/list url script-request-body https://raw.githubusercontent.com/age174/-/main/ximei.js
+
+#66阅读
+http://cn77fio.cn/v4/user/get_user_task? url script-request-header https://raw.githubusercontent.com/age174/-/main/66yd.js
