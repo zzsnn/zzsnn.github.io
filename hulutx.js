@@ -125,7 +125,6 @@ let url = {
        
     const result = JSON.parse(data)
         if(result.errCode == 00){
-        console.log(`\n〔葫芦音乐〕获取任务列表成功🚬`)    
 qd = result.data.pagelist[0].taskCode 
 qdfb = result.data.pagelist[0].secTaskVoList[0].taskCode
 gg = result.data.pagelist[1].taskCode
