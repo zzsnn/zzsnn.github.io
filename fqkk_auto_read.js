@@ -21,7 +21,8 @@ http-request ^http://.+/mock/read\? script-path=https://raw.githubusercontent.co
 const $ = new Env(`阅读自动返回`);
 !(async () => {
   if (typeof $request !== "undefined") {
-    if ($request.url.indexOf('/mock/read') > 0) {
+    let url = $request.url
+    if (url.indexOf('/mock/read') > 0) {
       let body = `
       <html>
       <head>
@@ -61,6 +62,7 @@ const $ = new Env(`阅读自动返回`);
       
 
 
+
       if (url.match(/https?:\/\/mp\.weixin\.qq\.com\/s.+/)) {
         let body = $response.body
         if (body.indexOf('</script>') > 0) {
@@ -91,9 +93,10 @@ const $ = new Env(`阅读自动返回`);
 /*
 ^http://.+/yunonline/v1/task url script-response-body https://raw.githubusercontent.com/zzsnn/zzsnn.github.io/master/fqkk_auto_read.js
 ^http://.+/(reada/jump|v1/jump|task/read)\? url script-response-header https://raw.githubusercontent.com/zzsnn/zzsnn.github.io/master/fqkk_auto_read.js
-^http://.+/mock/read url script-analyze-echo-response https://raw.githubusercontent.com/zzsnn/zzsnn.github.io/master/fqkk_auto_read.js
+^http://.+/mock/read\? url script-analyze-echo-response https://raw.githubusercontent.com/zzsnn/zzsnn.github.io/master/fqkk_auto_read.js
 ^http://.+/task/read\? url script-response-header https://raw.githubusercontent.com/zzsnn/zzsnn.github.io/master/fqkk_auto_read.js
 
+^https?://mp\.weixin\.qq\.com/s.+?k=feizao url response-body </script> response-body setTimeout(()=>window.history.back(),10000); </script>
 */
 
         let mock = true
@@ -113,6 +116,7 @@ const $ = new Env(`阅读自动返回`);
           let host = url.match(/^https?:\/\/(.+?)\//)[1]
           $response.headers['Location'] = `http://${host}/mock/read`
 
+          $response.headers['Location'] = $request.url.replace('/task/read', '/mock/read')
           $.done({headers: $response.headers})
         } else {
           $.log(`未检查到待跳转的微信文章url：\n${JSON.stringify($response.headers, null, 2)}`)
