@@ -59,30 +59,6 @@ const $ = new Env(`阅读自动返回`);
         $.done({status: 'HTTP/1.1 200 OK', headers, body})
       }
     } else if (typeof $response !== "undefined") {
-      
-
-
-
-      if (url.match(/https?:\/\/mp\.weixin\.qq\.com\/s.+/)) {
-        let body = $response.body
-        if (body.indexOf('</script>') > 0) {
-          body = body.replace('</script>', 'setTimeout(()=>window.history.back(),10000); </script>')
-          $.done({body})
-        } else {
-          $.log(`注入自动返回脚本失败：未找到替换数据`)
-        }
-      } else if (url.indexOf('v1/task') > 0) {
-        let data = $.toObj($response.body, {})
-        if (data.errcode == 0 && (data = data.data)) {
-          if (data.type == 'read' && data['session_link']) {
-            if ((data.wx_read || 0) - 0 <= 2) {
-              $.setval(new Date().getTime() + '', 'ysmReadTime')
-            }
-            $.log(`疑似鉴权文章:${data.wx_read}`)
-          }
-        }
-      } else {
-
 
 
       // 如果重定向的是微信文章，改写重定向地址
@@ -107,16 +83,17 @@ const $ = new Env(`阅读自动返回`);
             // 6秒内跳转的疑似鉴权文章请求，需进入微信文章页面
             mock = false
           }
-        } 
+        } else if (url.indexOf('reada/jump?') > 0 || url.indexOf('task/read?ch=fq') > 0) {
+          // 番茄看看的阅读文章，需进入微信文章页面后自动返回
+          mock = false
+        }
         if (mock) {
           $.log('修改重定向地址为倒计时空白页面')
           let host = url.match(/^https?:\/\/(.+?)\//)[1]
-          $response.headers['Location'] = $request.url.creplae`/task/read`,`http://${host}/mock/read`
+          $response.headers['Location'] = `http://${host}/mock/read`
+
           $.done({headers: $response.headers})
-        } else {
-          $.log(`未检查到待跳转的微信文章url：\n${JSON.stringify($response.headers, null, 2)}`)
-        }
-      }
+        } 
     }
   }
 }
