@@ -114,9 +114,7 @@ const $ = new Env(`阅读自动返回`);
         if (mock) {
           $.log('修改重定向地址为倒计时空白页面')
           let host = url.match(/^https?:\/\/(.+?)\//)[1]
-          $response.headers['Location'] = `http://${host}/mock/read`
-
-          $response.headers['Location'] = $request.url.replace('/task/read', '/mock/read')
+          $response.headers['Location'] = $request.url.creplae`/task/read`,`http://${host}/mock/read`
           $.done({headers: $response.headers})
         } else {
           $.log(`未检查到待跳转的微信文章url：\n${JSON.stringify($response.headers, null, 2)}`)
