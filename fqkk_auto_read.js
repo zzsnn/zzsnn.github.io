@@ -55,7 +55,7 @@ const $ = new Env(`前台自动阅读`);
       if ($.isSurge() || $.isLoon()) {
         $.done({response: {status: 200, headers, body}})
       } else if ($.isQuanX()) {
-        $.done({status: 'HTTP/1.2.2 200 OK', headers, body})
+        $.done({status: 'HTTP/1.1 200 OK', headers, body})
       }
     } else if (typeof $response !== "undefined") {
       // 如果重定向的是微信文章，改写重定向地址
