@@ -60,9 +60,8 @@ const $ = new Env(`前台自动阅读`);
     } else if (typeof $response !== "undefined") {
       // 如果重定向的是微信文章，改写重定向地址
       let url302 = ($response.headers && $response.headers['Location']) || ''
-      if (url302.match(/https?:\/\/mp\.weixin\.qq\.com\/s/)) {
-        let newUrl = $request.url.replace('/https?:\/\/mm\.peiyouesd\.xyz\/mock/read/')
-        $response.headers['Location'] = newUrl
+      if (url302.match(/https?:\/\/mp.weixin.qq.com\/s/)) {
+        $response.headers['Location'] = $request.url.match('/task/read', '/mock/read')
         $.done({headers: $response.headers})
       } else {
         $.log(`未检查到待跳转的微信文章url：\n${JSON.stringify($response.headers, null, 2)}`)
