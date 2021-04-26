@@ -61,7 +61,7 @@ const $ = new Env(`前台自动阅读`);
       // 如果重定向的是微信文章，改写重定向地址
       let url302 = ($response.headers && $response.headers['Location']) || ''
       if (url302.match(/https?:\/\/mp\.weixin\.qq\.com\/s/)) {
-        let newUrl = $request.url.match('/https?:\/\/mm\.peiyouesd\.xyz\/mock/read/')
+        let newUrl = $request.url.replace('/https?:\/\/mm\.peiyouesd\.xyz\/mock/read/')
         $response.headers['Location'] = newUrl
         $.done({headers: $response.headers})
       } else {
