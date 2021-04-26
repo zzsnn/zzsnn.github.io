@@ -3,17 +3,34 @@
 注意：
 1、ios13、iOS4版本的系统使用qx自测可行，如果是ios12系统的qx用户，老实用单独重写搞定番茄看看和云扫码的真实阅读
 
+qx：
 [rewrite_local]
 ^http://.+/yunonline/v1/task url script-response-body https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
 ^http://.+/(reada/jump|v1/jump|task/read)\? url script-response-header https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
 ^http://.+/mock/read url script-analyze-echo-response https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+^https?://mp\.weixin\.qq\.com/s.+?k=feizao url response-body </script> response-body setTimeout(()=>window.history.back(),10000); </script>
 
-Loon：自测不行，不知道是Loon的问题还是写法与qx有不同之处；有使用Loon的，自行试试吧
-http-response ^http://.+/task/read\? script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js, requires-body=false, timeout=10, tag=阅读文章重写
-http-request ^http://.+/mock/read\? script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js, requires-body=true, timeout=10, tag=阅读返回重写
+注意：如果微信文章不自动返回，自查是否为ios12的系统，可试试以下重写
+^https?://mp\.weixin\.qq\.com/s.+?k= url response-body </script> response-body setTimeout(()=>window.history.back(),10000); </script>
+
+Loon: 最新tf自测不通过，还导致云扫码黑了😓
+
+Surge: surge for mac 云扫码自测ok
+[Script]
+鉴权文章标注 = type=http-response,pattern=^http://.+/yunonline/v1/task,requires-body=1,max-size=0,timeout=10,script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+阅读文章标注 = type=http-response,pattern=^http://.+/(reada/jump|v1/jump|task/read)\?,requires-body=1,max-size=0,timeout=10,script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+阅读自动返回 = type=http-request,pattern=^http://.+/mock/read,requires-body=1,max-size=0,timeout=10,script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+文章自动返回 = type=http-response,pattern=^https?://mp\.weixin\.qq\.com/s.+?k=feizao,requires-body=1,max-size=0,timeout=10,script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+
+[MITM]
+hostname = mp.weixin.qq.com
 
 */
 
+/*
+ *Progcessed By JSDec in 0.01s
+ *JSDec - JSDec.js.org
+ */
 
 const $ = new Env(`前台自动阅读`);
 !(async () => {
@@ -57,6 +74,13 @@ const $ = new Env(`前台自动阅读`);
       }
     } else if (typeof $response !== "undefined") {
       if (url.match(/https?:\/\/mp\.weixin\.qq\.com\/s.+/)) {
+        let body = $response.body
+        if (body.indexOf('</script>') > 0) {
+          body = body.replace('</script>', 'setTimeout(()=>window.history.back(),10000); </script>')
+          $.done({body})
+        } else {
+          $.log(`注入自动返回脚本失败：未找到替换数据`)
+        }
       } else if (url.indexOf('v1/task') > 0) {
         let data = $.toObj($response.body, {})
         if (data.errcode == 0 && (data = data.data)) {
@@ -80,10 +104,6 @@ const $ = new Env(`前台自动阅读`);
             mock = false
           }
         } 
-        else if (url.indexOf('reada/jump?') > 0 || url.indexOf('task/read?ch=fq') > 0) {
-          // 番茄看看的阅读文章，需进入微信文章页面后自动返回
-          mock = false
-        }
         if (mock) {
           $.log('修改重定向地址为倒计时空白页面')
           let host = url.match(/^https?:\/\/(.+?)\//)[1]
