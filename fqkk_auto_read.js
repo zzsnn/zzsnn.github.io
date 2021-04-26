@@ -1,15 +1,12 @@
 /*
-番茄看看先使用ztxtop大佬写的前台脚本吧
-番茄看看整了加密。每次阅读调用了微信接口。无法解决。只能前台单账号玩玩了。跟悦趣阅读差不多的玩法了。区别是悦趣手动鉴权需要运行脚本。番茄看看则需要手动点击开始阅读，跑完一轮再次点击。并保持在前台运行。
-脚本为前台脚本。单账号使用，需保持番茄看看在前台，实现自动跳转阅读。但是也屏蔽了阅读微信文章。应该不会产生真实阅读量。
-
-使用方法:添加下面的重写去点击开始阅读就可以了。
-
-注意事项:重写不需要关闭，鉴权文章阅读不会被重写，若跳转了微信文章页面，那这个阅读应该是鉴权文章；对于之前脚本跑28、29、30等篇数就被限制的情况，用重写辅助脚本时可留意下是否这些篇数就会进入微信文章页面
+番茄看看跳转微信文章真实阅读（疑似鉴权文章不自动返回），云扫码直接倒计时虚假阅读（疑似鉴权文章会跳转微信文章真实阅读，会自动返回（多前台跑云扫码时，鉴权文章标识数据会覆盖，可导致非疑似鉴权的文章也进入文章页面进行真实阅读）
+注意：
+1、ios13、iOS4版本的系统使用qx自测可行，如果是ios12系统的qx用户，老实用单独重写搞定番茄看看和云扫码的真实阅读
 
 [rewrite_local]
-^http://.+/task/read\? url script-response-header https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
-^http://.+/mock/read\? url script-analyze-echo-response https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+^http://.+/yunonline/v1/task url script-response-body https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+^http://.+/(reada/jump|v1/jump|task/read)\? url script-response-header https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+^http://.+/mock/read url script-analyze-echo-response https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
 
 Loon：自测不行，不知道是Loon的问题还是写法与qx有不同之处；有使用Loon的，自行试试吧
 http-response ^http://.+/task/read\? script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js, requires-body=false, timeout=10, tag=阅读文章重写
@@ -59,11 +56,7 @@ const $ = new Env(`前台自动阅读`);
         $.done({status: 'HTTP/1.1 200 OK', headers, body})
       }
     } else if (typeof $response !== "undefined") {
-
-
-
       if (url.match(/https?:\/\/mp\.weixin\.qq\.com\/s.+/)) {
-
       } else if (url.indexOf('v1/task') > 0) {
         let data = $.toObj($response.body, {})
         if (data.errcode == 0 && (data = data.data)) {
@@ -75,15 +68,9 @@ const $ = new Env(`前台自动阅读`);
           }
         }
       } else {
-
-
-
-
       // 如果重定向的是微信文章，改写重定向地址
       let url302 = ($response.headers && $response.headers['Location']) || ''
       if (url302.match(/https?:\/\/mp\.weixin\.qq\.com\/s/)) {
-
-
         let mock = true
         if (url.indexOf('v1/jump?') > 0) {
           // jump接口，需判断是否疑似鉴权阅读，否才修改重定向地址
@@ -93,6 +80,10 @@ const $ = new Env(`前台自动阅读`);
             mock = false
           }
         } 
+        else if (url.indexOf('reada/jump?') > 0 || url.indexOf('task/read?ch=fq') > 0) {
+          // 番茄看看的阅读文章，需进入微信文章页面后自动返回
+          mock = false
+        }
         if (mock) {
           $.log('修改重定向地址为倒计时空白页面')
           let host = url.match(/^https?:\/\/(.+?)\//)[1]
