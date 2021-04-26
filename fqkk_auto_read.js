@@ -107,10 +107,7 @@ const $ = new Env(`阅读自动返回`);
             // 6秒内跳转的疑似鉴权文章请求，需进入微信文章页面
             mock = false
           }
-        } else if (url.indexOf('reada/jump?') > 0 || url.indexOf('task/read?ch=fq') > 0) {
-          // 番茄看看的阅读文章，需进入微信文章页面后自动返回
-          mock = false
-        }
+        } 
         if (mock) {
           $.log('修改重定向地址为倒计时空白页面')
           let host = url.match(/^https?:\/\/(.+?)\//)[1]
