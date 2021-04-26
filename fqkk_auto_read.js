@@ -1,24 +1,21 @@
+
 /*
-番茄看看先使用ztxtop大佬写的前台脚本吧
-番茄看看整了加密。每次阅读调用了微信接口。无法解决。只能前台单账号玩玩了。跟悦趣阅读差不多的玩法了。区别是悦趣手动鉴权需要运行脚本。番茄看看则需要手动点击开始阅读，跑完一轮再次点击。并保持在前台运行。
-脚本为前台脚本。单账号使用，需保持番茄看看在前台，实现自动跳转阅读。但是也屏蔽了阅读微信文章。应该不会产生真实阅读量。
 
-使用方法:添加下面的重写去点击开始阅读就可以了。
+^http://.+/(task/read|v1/jump)\? url script-response-header auto_read.js
+^http://.+/mock/read url script-analyze-echo-response auto_read.js
 
-注意事项:重写不需要关闭，鉴权文章阅读不会被重写，若跳转了微信文章页面，那这个阅读应该是鉴权文章；对于之前脚本跑28、29、30等篇数就被限制的情况，用重写辅助脚本时可留意下是否这些篇数就会进入微信文章页面
+Loon: tf v2.1.10(282)自测不通过
+http-response ^http://.+/(task/read|v1/jump)\? script-path=auto_read.js, requires-body=false, timeout=10, tag=阅读文章重写
+http-request ^http://.+/mock/read script-path=auto_read.js, requires-body=true, timeout=10, tag=阅读自动返回
 
-[rewrite_local]
-^http://.+/task/read\? url script-response-header https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
-^http://.+/mock/read\? url script-analyze-echo-response https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
-
-Loon：自测不行，不知道是Loon的问题还是写法与qx有不同之处；有使用Loon的，自行试试吧
-http-response ^http://.+/task/read\? script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js, requires-body=false, timeout=10, tag=阅读文章重写
-http-request ^http://.+/mock/read\? script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js, requires-body=true, timeout=10, tag=阅读返回重写
+Surge: surge for mac自测ok
+阅读文章重写 = type=http-response,pattern=^http://.+/(task/read|v1/jump)\?,requires-body=1,max-size=0,timeout=6,script-path=auto_read.js
+阅读自动返回 = type=http-request,pattern=^http://.+/mock/read,requires-body=1,max-size=0,timeout=6,script-path=auto_read.js
 
 */
 
 
-const $ = new Env(`前台自动阅读`);
+const $ = new Env(`阅读自动返回`);
 !(async () => {
   if (typeof $request !== "undefined") {
     if ($request.url.indexOf('/mock/read') > 0) {
@@ -60,8 +57,9 @@ const $ = new Env(`前台自动阅读`);
     } else if (typeof $response !== "undefined") {
       // 如果重定向的是微信文章，改写重定向地址
       let url302 = ($response.headers && $response.headers['Location']) || ''
-      if (url302.match(/https?:\/\/mp\.weixin\.qq\.com\/s/)) {
-        $response.headers['Location'] = $request.url.replace('/task/read', '/mock/read')
+      if (url302.match(/https?:\/\/mp.weixin.qq.com\/s/)) {
+        let newUrl = $request.url.match(/https?:\/\mm.xayunshang.xyz/mock/read'
+        $response.headers['Location'] = newUrl
         $.done({headers: $response.headers})
       } else {
         $.log(`未检查到待跳转的微信文章url：\n${JSON.stringify($response.headers, null, 2)}`)
