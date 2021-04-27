@@ -1,27 +1,42 @@
 /*
-番茄看看先使用ztxtop大佬写的前台脚本吧
-番茄看看整了加密。每次阅读调用了微信接口。无法解决。只能前台单账号玩玩了。跟悦趣阅读差不多的玩法了。区别是悦趣手动鉴权需要运行脚本。番茄看看则需要手动点击开始阅读，跑完一轮再次点击。并保持在前台运行。
-脚本为前台脚本。单账号使用，需保持番茄看看在前台，实现自动跳转阅读。但是也屏蔽了阅读微信文章。应该不会产生真实阅读量。
+番茄看看跳转微信文章真实阅读（疑似鉴权文章不自动返回），云扫码直接倒计时虚假阅读（疑似鉴权文章会跳转微信文章真实阅读，会自动返回（多前台跑云扫码时，鉴权文章标识数据会覆盖，可导致非疑似鉴权的文章也进入文章页面进行真实阅读）
+注意：
+1、ios13、iOS4版本的系统使用qx自测可行，如果是ios12系统的qx用户，老实用单独重写搞定番茄看看和云扫码的真实阅读
 
-使用方法:添加下面的重写去点击开始阅读就可以了。
-
-注意事项:重写不需要关闭，鉴权文章阅读不会被重写，若跳转了微信文章页面，那这个阅读应该是鉴权文章；对于之前脚本跑28、29、30等篇数就被限制的情况，用重写辅助脚本时可留意下是否这些篇数就会进入微信文章页面
-
+qx：
 [rewrite_local]
-^http://.+/task/read\? url script-response-header https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
-^http://.+/mock/read\? url script-analyze-echo-response https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+^http://.+/yunonline/v1/task url script-response-body https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+^http://.+/(reada/jump|v1/jump|task/read)\? url script-response-header https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+^http://.+/mock/read url script-analyze-echo-response https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+^https?://mp\.weixin\.qq\.com/s.+?k=feizao url response-body </script> response-body setTimeout(()=>window.history.back(),10000); </script>
 
-Loon：自测不行，不知道是Loon的问题还是写法与qx有不同之处；有使用Loon的，自行试试吧
-http-response ^http://.+/task/read\? script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js, requires-body=false, timeout=10, tag=阅读文章重写
-http-request ^http://.+/mock/read\? script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js, requires-body=true, timeout=10, tag=阅读返回重写
+注意：如果微信文章不自动返回，自查是否为ios12的系统，可试试以下重写
+^https?://mp\.weixin\.qq\.com/s.+?k= url response-body </script> response-body setTimeout(()=>window.history.back(),10000); </script>
+
+Loon: 最新tf自测不通过，还导致云扫码黑了😓
+
+Surge: surge for mac 云扫码自测ok
+[Script]
+鉴权文章标注 = type=http-response,pattern=^http://.+/yunonline/v1/task,requires-body=1,max-size=0,timeout=10,script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+阅读文章标注 = type=http-response,pattern=^http://.+/(reada/jump|v1/jump|task/read)\?,requires-body=1,max-size=0,timeout=10,script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+阅读自动返回 = type=http-request,pattern=^http://.+/mock/read,requires-body=1,max-size=0,timeout=10,script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+文章自动返回 = type=http-response,pattern=^https?://mp\.weixin\.qq\.com/s.+?k=feizao,requires-body=1,max-size=0,timeout=10,script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+
+[MITM]
+hostname = mp.weixin.qq.com
 
 */
 
+/*
+ *Progcessed By JSDec in 0.01s
+ *JSDec - JSDec.js.org
+ */
 
 const $ = new Env(`前台自动阅读`);
 !(async () => {
   if (typeof $request !== "undefined") {
-    if ($request.url.indexOf('/mock/read') > 0) {
+    let url = $request.url
+    if (url.indexOf('/mock/read') > 0) {
       let body = `
       <html>
       <head>
@@ -58,14 +73,53 @@ const $ = new Env(`前台自动阅读`);
         $.done({status: 'HTTP/1.1 200 OK', headers, body})
       }
     } else if (typeof $response !== "undefined") {
+      if (url.match(/https?:\/\/mp\.weixin\.qq\.com\/s.+/)) {
+        let body = $response.body
+        if (body.indexOf('</script>') > 0) {
+          body = body.replace('</script>', 'setTimeout(()=>window.history.back(),10000); </script>')
+          $.done({body})
+        } else {
+          $.log(`注入自动返回脚本失败：未找到替换数据`)
+        }
+      } else if (url.indexOf('v1/task') > 0) {
+        let data = $.toObj($response.body, {})
+        if (data.errcode == 0 && (data = data.data)) {
+          if (data.type == 'read' && data['session_link']) {
+            if ((data.wx_read || 0) - 0 <= 2) {
+              $.setval(new Date().getTime() + '', 'ysmReadTime')
+            }
+            $.log(`疑似鉴权文章:${data.wx_read}`)
+          }
+        }
+      } else {
       // 如果重定向的是微信文章，改写重定向地址
       let url302 = ($response.headers && $response.headers['Location']) || ''
       if (url302.match(/https?:\/\/mp\.weixin\.qq\.com\/s/)) {
-        $response.headers['Location'] = $request.url.replace('/task/read', '/mock/read')
-        $.done({headers: $response.headers})
-      } else {
-        $.log(`未检查到待跳转的微信文章url：\n${JSON.stringify($response.headers, null, 2)}`)
-      }
+        let mock = true
+        if (url.indexOf('v1/jump?') > 0) {
+          // jump接口，需判断是否疑似鉴权阅读，否才修改重定向地址
+          let time = ($.getval('ysmReadTime') || '0') - 0
+          if (new Date().getTime() - time <= 6000) {
+            // 6秒内跳转的疑似鉴权文章请求，需进入微信文章页面
+            mock = false
+          }
+        } 
+        if (mock) {
+          $.log('修改重定向地址为倒计时空白页面')
+          let host = url.match(/^https?:\/\/(.+?)\//)[1]
+          $response.headers['Location'] = `http://${host}/mock/read`
+          $.done({headers: $response.headers})
+        } else {
+          $.log('为重定向的微信文章地址添加注入标识')
+          if (!url302.indexOf('?')) {
+            $response.headers['Location'] = url302 + '?k=feizao'
+          } else if (url302.indexOf('?') && url302.indexOf('&')) {
+            $response.headers['Location'] = url302.replace('&', `&k=feizao&`)
+          } else {
+            $response.headers['Location'] = url302.replace('?', `?k=feizao&`)
+          }
+          $.done({headers: $response.headers})
+        }}}
     }
   }
 })().catch((e) => $.logErr(e)).finally(() => $.done());
