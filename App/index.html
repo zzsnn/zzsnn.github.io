@@ -14,75 +14,106 @@
 </head>
 
 <script type="text/javascript">
-      p = navigator.platform,
-      u = navigator.userAgent;
-      system.win = 0 == p.indexOf("Win"),
-      system.mac = 0 == p.indexOf("Mac"),
-      system.x11 = "X11" == p || 0 == p.indexOf("Linux"),
-      (system.win || system.mac || system.xll) && (u.indexOf("Windows Phone") > -1 || (window.location.href = "https://judd.vercel.app/"));</script>
-    <script type="text/javascript">window.onload = function() {
-        document.onkeydown = function() {
-          window.event || arguments[0];
-          return event.ctrlKey && 85 == window.event.keyCode ? !1 : void 0
-        },
-        document.oncontextmenu = function() {
-          return ! 1
-        }
-      };</script>
-    <script>var ConsoleManager = {
-        onOpen: function() {
-          alert("Console is opened")
-        },
-        onClose: function() {
-          alert("Console is closed")
-        },
-        init: function() {
-          var n = this,
-          e = document.createElement("div"),
-          o = !1,
-          t = !1;
-          Object.defineProperty(e, "id", {
-            get: function() {
-              o || (n.onOpen(), o = !0),
-              t = !0
-            }
-          }),
-          setInterval(function() {
-            t = !1,
-            console.info(e),
-            console.clear(),
-            !t && o && (n.onClose(), o = !1)
-          },
-          200)
-        }
+  var system = {};
+  var p = navigator.platform;
+  var u = navigator.userAgent;
+
+   system.win = p.indexOf("Win") == 0;
+   system.mac = p.indexOf("Mac") == 0;
+   system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+   if (system.win || system.mac || system.xll) {//P
+   if (u.indexOf('Windows Phone') > -1) {  //S
+
+   }else {
+  window.location.href = "https://judd.vercel.app/";
+   }
+  }
+</script>
+
+<script type="text/javascript">
+  window.onload = function() {
+      document.onkeydown = function() {
+          var e = window.event || arguments[0];
+          if (event.ctrlKey && window.event.keyCode==85){
+              return false;
+          }
       };
-      ConsoleManager.onOpen = function() {
-        try {
-          window.open("https://www.baidu.com/", target = "_self")
-        } catch(n) {
-          var e = document.createElement("button");
-          e.onclick = function() {
-            window.open("https://www.baidu.com", target = "_self")
-          },
-          e.click()
-        }
-      },
-      ConsoleManager.onClose = function() {
-        alert("Console is closed!!!!!")
-      },
-      ConsoleManager.init();</script>
-    <script>var ua = navigator.userAgent.toLowerCase();
-      "micromessenger" == ua.match(/MicroMessenger/i) && (window.location.href = "wxmask.html");</script>
-    <script>if ("standalone" in window.navigator && window.navigator.standalone) {
-        var noddy, remotes = !1;
-        document.addEventListener("click",
-        function(n) {
-          for (noddy = n.target;
-          "A" !== noddy.nodeName && "HTML" !== noddy.nodeName;) noddy = noddy.parentNode;
-          "href" in noddy && -1 !== noddy.href.indexOf("http") && ( - 1 !== noddy.href.indexOf(document.location.host) || remotes) && (n.preventDefault(), document.location.href = noddy.href)
-        },
-        !1)
-      }</script>
+      //Ctrl+U
+      document.oncontextmenu = function() {
+
+          return false;
+      }
+  }
+</script>
+<script>
+var ConsoleManager={
+  onOpen:function(){
+      alert("Console is opened")
+  },
+  onClose:function(){
+      alert("Console is closed")
+  },
+  init:function(){
+      var self = this;
+      var x = document.createElement('div');
+      var isOpening = false,isOpened=false;
+      Object.defineProperty(x, 'id', {
+          get:function(){
+              if(!isOpening){
+                  self.onOpen();
+                  isOpening=true;
+              }
+              isOpened=true;
+          }
+      });
+      setInterval(function(){
+          isOpened=false;
+          console.info(x);
+          console.clear();
+          if(!isOpened && isOpening){
+              self.onClose();
+              isOpening=false;
+          }
+      },200)
+  }
+}
+ConsoleManager.onOpen = function(){
+  //打开控制台，跳转到百度
+  try{
+      window.open('https://www.baidu.com/',target='_self');
+  }catch(err){
+      var a = document.createElement("button");
+          a.onclick=function(){
+          window.open('https://www.baidu.com',target='_self');
+      }
+      a.click();
+  }
+}
+ConsoleManager.onClose = function(){
+  alert("Console is closed!!!!!")
+}
+ConsoleManager.init();
+</script>
+
+    <script>var ua = navigator.userAgent.toLowerCase();"micromessenger" == ua.match(/MicroMessenger/i) && (window.location.href="wxmask.html")</script>
+
+    <!--webclip 设置-->
+    <script>
+      if (("standalone" in window.navigator) && window.navigator.standalone) {
+          var noddy, remotes = false;
+          document.addEventListener('click', function (event) {
+              noddy = event.target;
+              while (noddy.nodeName !== "A" && noddy.nodeName !== "HTML") {
+                  noddy = noddy.parentNode;
+              }
+              if ('href' in noddy && noddy.href.indexOf('http') !== -1 && (noddy.href.indexOf(document.location.host) !== -1 || remotes)) {
+                  event.preventDefault();
+                  document.location.href = noddy.href;
+              }
+          }, false);
+      }
+  </script>
+
     <script>var _hmt = _hmt || []; !
       function() {
         var n = document.createElement("script");
@@ -402,9 +433,12 @@
           <img src="https://cdn.jsdelivr.net/gh/zzsnn/jsdelivr-fome/app/fuli1.png" alt>
         </a>
       </div>
-      <script>$(document).delegate(".qun", ".pianwang", "click",
-        function() {
-          Dialog.init("❤️&nbsp如遇App无法安装或失效发送邮件至cloudzzsn@foxmail.com进行反馈")});</script>
+
+      <script>
+      $(document).delegate(".qun", ".pianwang", "click", function () {
+        Dialog.init('❤️&nbsp如遇App无法安装或失效发送邮件至cloudzzsn@foxmail.com进行反馈');})
+      </script>
+          
       <script type="text/javascript" src="js/index.js">
       </script>
       </script>
