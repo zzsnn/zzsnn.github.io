@@ -91,13 +91,13 @@
       "time": "0 */8 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/ziye888/JavaScript/main/Task/qczjspeed.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/zzsnn/zzsnn.github.io/master/helpbangs.js"
       }
     },
 	  {
       "name": "左边",
       "type": "cron",
-      "time": "0 0 0/4 * * ?",
+      "time": "0 0 0/4 * * *",
       "job": {
         "type": "runjs",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/xl2101200/-/main/zb.js"
