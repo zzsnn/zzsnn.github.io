@@ -120,6 +120,15 @@
         "type": "runjs",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqireadtime.js"
       }
+    },
+    {
+      "name": "多看点",
+      "type": "cron",
+      "time": "*/23 8-18 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDVIDEO/dkdvideo.js"
+      }
     }
   ]
 }
