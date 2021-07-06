@@ -79,12 +79,21 @@
 	   {
       "name": "汽车之家极速版",
       "type": "cron",
-      "time": "*30 8-20 * * *",
+      "time": "*/30 8-20 * * *",
       "job": {
         "type": "runjs",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/ziye888/JavaScript/main/Task/qczjspeed.js"
       }
-    },	
+    },
+    {
+      "name": "互利帮",
+      "type": "cron",
+      "time": "0 */8 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/ziye888/JavaScript/main/Task/qczjspeed.js"
+      }
+    },
 	  {
       "name": "左边",
       "type": "cron",
