@@ -1,0 +1,98 @@
+{
+  "name": "自用 v2p 定时任务订阅",
+  "author": "",
+  "desc": "自用。该订阅仅适用于 elecV2P",
+  "date": "2021-07-06 8:40:00",
+  "list": [
+	  {
+      "name": "中青浏览&看看赚2",
+      "type": "cron",
+      "time": "40 15 9 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/zzsnn/Scripts/master/Task/youth_gain.js"
+      }
+    },	
+    {
+      "name": "中青浏览&看看赚",
+      "type": "cron",
+      "time": "20 5 10 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js"
+      }
+    },	
+    {
+      "name": "中青自动阅读",
+      "type": "cron",
+      "time": "*/30 8-12 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_Read.js"
+      }
+    },	
+	   {
+      "name": "中青签到&转盘&时长",
+      "type": "cron",
+      "time": "10 40 8-20 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js"
+      }
+    },	
+	   {
+      "name": "抖音极速版刷音符",
+      "type": "cron",
+      "time": "*/45 * 8-19 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://gitee.com/passerby-b/javascript/raw/master/dyjs.js"
+      }
+    },	
+	   {
+      "name": "抖音极速版签到",
+      "type": "cron",
+      "time": "45 8 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/dyjsb.js"
+      }
+    },	
+	   {
+      "name": "百度极速版",
+      "type": "cron",
+      "time": "*/30 14-20 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/Sunert/Script/master/Task/baidu_speed.js"
+      }
+    },
+	   {
+      "name": "百度极速版提现",
+      "type": "cron",
+      "time": "59 59 5 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/Sunert/Script/master/Task/baidu_speed.js"
+      }
+    },	
+	   {
+      "name": "汽车之家极速版",
+      "type": "cron",
+      "time": "*30 8-20 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/ziye888/JavaScript/main/Task/qczjspeed.js"
+      }
+    },	
+	  {
+      "name": "左边",
+      "type": "cron",
+      "time": "0 0 0/4 * * ?",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/xl2101200/-/main/zb.js"
+      }
+    }
+  ]
+}
