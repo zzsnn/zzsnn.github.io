@@ -4070,4 +4070,8 @@ $(function() {
 });
 document.addEventListener('touchstart', onTouchStart, {
     passive: true
+<<<<<<< Updated upstream
 });
+=======
+});
+>>>>>>> Stashed changes
