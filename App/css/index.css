@@ -453,7 +453,7 @@ div {
 	top:0px;
 	z-index:9999;
 	width:100%;
-	height:100%;
+	height:120%;
 	display:-webkit-flex;
 	display:flex;
 	-webkit-align-items:center;
@@ -479,7 +479,7 @@ div {
 }
 .c_alert_wrap {
 	z-index:1200;
-	max-width:400px;
+	/* max-width: 400px;*/
 	position:relative;
 	background:#fff;
 	height:auto;
@@ -505,8 +505,10 @@ div {
 	animation-fill-mode:forwards
 }
 .dialog_open .c_alert_wrap {
-	-webkit-animation-name:anim-open;
-	animation-name:anim-open
+	animation: showPageContentKeyFrame-data-v-2033a8d1 .3s;
+    animation-fill-mode: forwards;
+    -webkit-animation: showPageContentKeyFrame-data-v-2033a8d1 .3s;
+    -webkit-animation-fill-mode: forwards;
 }
 .dialog_close .c_alert_wrap {
 	-webkit-animation-name:anim-close;
@@ -1098,7 +1100,7 @@ to {
 }
 .shengming {
 	position:relative;
-	z-index:2;
+	z-index:1;
 	text-align:center
 }
 .shengming .shuiyin_shengming {
@@ -1157,4 +1159,160 @@ to {
 	border:1px solid #ddd;
 	border-radius:10px;
 	margin:10px 15px 0 15px;
+}
+.infoLine{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 15px 0 15px 0;
+    color: #000;
+}
+.cj{
+    display: flex;
+    justify-content: space-start;
+    padding: 10px;
+    position: relative;
+    padding-bottom: 0;
+}
+.cjLogoPanel{
+    display: flex;
+    justify-content: space-between;
+}
+.cjLogo{
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+.pageContent{
+    /* width: calc(100vw - 60px); */
+    /* padding-bottom: 30px; */
+}
+#lookReadmeBtn{
+    width: 100%;
+    font-size: .9rem;
+    font-weight: 700;
+    background-image: linear-gradient(180deg,#5d9cec,#4a89dc);
+    box-shadow: 0 5px 14px 0 rgb(0 0 0 / 10%);
+    padding: 10px 20px;
+    color: #fff;
+    background-size: cover;
+    text-align: center;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.infoTitle{
+    color: #000;
+    font-weight: 700;
+    font-size: .8rem;
+}
+.infoContent{
+    font-size: .8rem;
+    color: #747474;
+    text-align: right;
+    flex: 1;
+}
+.p1urllor{
+	color: #fff;
+}
+.cjName{
+    font-size: 14px;
+    font-weight: 700;
+}
+.cjName, .cjRemark{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+
+
+/*模态框主体样式*/
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*模态框公共样式*/
+.modal-content {
+	background-color: #fefefe;
+	margin: 200px auto 0;
+	padding: 20px;
+	border: 1px solid #888;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	animation: modal-show 0.3s;
+	border-radius: 20px;
+}
+
+/* 正常大小 */
+.modal-normal {
+	width: 600px;
+}
+
+/* 中等大小 */
+.modal-medium {
+	width: 400px;
+}
+
+/* 迷你大小 */
+.modal-mini {
+	width: 250px;
+}
+
+/* 隐藏 */
+.modal-hide {
+	animation: modal-hide 0.3s;
+}
+
+/* 展示动画 */
+@keyframes modal-show {
+	from {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* 隐藏动画 */
+@keyframes modal-hide {
+	from {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	to {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+}
+
+/*关闭按钮*/
+.close {
+	color: #fff;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	cursor: pointer;
+	-webkit-tap-highlight-color: rgba(255,0,0,0);
+}
+
+/*关闭按钮的鼠标点击和经过样式*/
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	-webkit-tap-highlight-color: rgba(255,0,0,0);
 }

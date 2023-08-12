@@ -36,8 +36,73 @@ $(function() {
         $(".xiangqing .tab_con .item").eq(i).slideDown();
     }
     $(document).delegate(".shang", 'click', function() {
-        Dialog.init('❤️&nbsp小人物一个，不需要赞赏～', 2000);
+        Dialog.init('❤️&nbsp小人物一个，不需要赞赏～', );
     })
+    //刷新页面返回顶部
+    window.onbeforeunload = function(){
+        document.documentElement.scrollTop = 0;  //ie下
+        document.body.scrollTop = 0;  //非ie
+    }
+
+
+    	// 获取触发模态框的自定义属性
+	var modalButtons = document.querySelectorAll("[data-modal-action]");
+	// 获取模态框主体
+	var modals = document.querySelectorAll(".modal");
+	// 监听模态框的按钮事件
+	modalButtons.forEach(function(div) {
+		div.addEventListener("click", function() {
+			var targetId = this.dataset.modalTarget;
+			var targetModal = document.getElementById(targetId);
+
+			if (targetModal) {
+				var action = this.dataset.modalAction;
+
+				if (action === "open") {
+					openModal(targetModal);
+				} else if (action === "close") {
+					closeModal(targetModal);
+				}
+			}
+		});
+	});
+
+
+	// 打开模态框
+	function openModal(modal) {
+		modal.style.display = "block";
+		modal.querySelector(".modal-content").classList.remove("modal-hide");
+	}
+
+	// 关闭模态框
+	function closeModal(modal) {
+		modal.querySelector(".modal-content").classList.add("modal-hide");
+		modal.querySelector(".modal-content").addEventListener("animationend", function () {
+			modal.style.display = "none";
+		}, { once: true });
+	}
+
+	// 监听模态框的关闭时事件
+	modals.forEach(function(modal) {
+		var closeButton = modal.querySelector(".close");
+		if (closeButton) {
+			closeButton.addEventListener("click", function() {
+				var targetModal = this.closest(".modal");
+				closeModal(targetModal);
+			});
+		}
+	});
+
+	// 当用户点击模态框外部时，关闭模态框
+	window.onclick = function (event) {
+		modals.forEach(function(modal) {
+			if (event.target === modal) {
+				closeModal(modal);
+			}
+		});
+	};
+
+
 });
 'use strict';
 var _typeof = 'function' == typeof Symbol && 'symbol' == typeof Symbol.iterator ? function(d) {
@@ -78,7 +143,7 @@ var Dialog = function() {
                     p = document.createElement('div'),
                     q = this,
                     r = q.set;
-                if (m.classList.add('c_alert_dialog'), r.index && (m.dataset.index = r.index), p.classList.add('c_alert_wrap'), p.innerHTML = '<div class="c_alert_con" style="max-width: 300px;">' + j + '</div>', r.addClass && p.classList.add(r.addClass), r.title && (p.classList.add('c_alert_width'), p.insertAdjacentHTML('afterbegin', '<div class="c_alert_title">' + k.title + '</div>')), r.button) {
+                if (m.classList.add('c_alert_dialog'), r.index && (m.dataset.index = r.index), p.classList.add('c_alert_wrap'), p.innerHTML = '<div class="c_alert_con" style="/* max-width: 300px; */">' + j + '</div>', r.addClass && p.classList.add(r.addClass), r.title && (p.classList.add('c_alert_width'), p.insertAdjacentHTML('afterbegin', '<div class="c_alert_title">' + k.title + '</div>')), r.button) {
                     p.classList.add('c_alert_width');
                     var s = '';
                     for (var u in r.button) s += '<a href="javascript:;" data-name="' + u + '">' + u + '</a>';

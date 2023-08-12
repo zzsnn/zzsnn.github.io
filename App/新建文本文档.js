@@ -50,3 +50,10 @@ function downloadapp(tag) {
 <span class="time"><em><i><img src="https://cdn.jsdelivr.net/gh/zzsnn/jsdelivr-fome/app/s.png" alt=""></i></em><p>&nbsp;2020-09-18</p></span></div>
 <div class="software-down">
 <a href="javascript:;" class="button button-glow button-rounded button-raised button-primary">安装</a></div></li>
+
+
+<img id="image" src="smiley.gif">
+
+<script>
+document.getElementById("image").src="landscape.jpg";
+</script>
