@@ -43,7 +43,7 @@
 	min-width:320px;
 	background-color:#fff;
 	transform:translateX(-50%);
-	z-index:1
+	z-index:3
 }
 .footer a {
 	-webkit-tap-highlight-color:transparent;
@@ -313,7 +313,7 @@
 }
 .tuijian {
 	position:relative;
-	/*z-index:2;*/
+	z-index:2;
 }
 .tuijian .shuiyin_tuijian {
 	font-size:35px;
@@ -326,17 +326,6 @@
 	font-size:40px;
 	color:#efefef;
 	z-index:-1;
-	text-align:center;
-	display:flex;
-	justify-content:center;
-}
-.shuiyintj {
-	position:absolute;
-	width:100%;
-	height:100%;
-	font-size:40px;
-	color:#efefef;
-	/*z-index:-1;*/
 	text-align:center;
 	display:flex;
 	justify-content:center;
@@ -1228,46 +1217,64 @@ to {
 .p1urllor{
 	color: #fff;
 }
+.cjName{
+    font-size: 14px;
+    font-weight: 700;
+}
+.cjName, .cjRemark{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
 
 
 
 
 /*模态框主体样式*/
+/*
 .modal {
+	display: none;
 	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+*/
+
+.modal {
+	display: none;
+    overflow: auto;
+    position: fixed;
     left: 0;
     top: 0;
     background: rgba(0,0,0,.5);
     z-index: 99;
     width: 100vw;
     height: 100vh;
-    display: none;
 }
+
+
+
 
 /*模态框公共样式*/
 .modal-content {
-	width: calc(100vw - 20px);
-    left: 10px;
-    background: hsl(0deg 0% 100% / 100%);
-    position: fixed;
-    border-radius: 20px;
-    padding-bottom: 30px;
-    overflow: auto;
-    color: #000!important;
-    bottom: 0;
-    padding: 20px;
-    animation: modal-show 0.3s;
-    padding-bottom: 30px;
-    margin: 0px auto 30px;
+	background-color: #fefefe;
+	margin: 200px auto 0;
+	padding: 20px;
+	border: 1px solid #888;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	animation: modal-show 0.3s;
+	border-radius: 20px;
 }
 
 /* 正常大小 */
-/*
-.modal-normal {
-	bottom: 0;
+/* .modal-normal {
 	width: 600px;
-}
-*/
+}*/
 
 /* 中等大小 */
 .modal-medium {
