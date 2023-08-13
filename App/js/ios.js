@@ -870,6 +870,30 @@ document.getElementById("p35-1-10").innerHTML="解锁VIP限制";
 document.getElementById("p35-1-11").innerHTML="更新时间";
 document.getElementById("p35-1-12").innerHTML="无";
 });
+/*****************************************************/
+/*****************************************************/
+/*****************************************************/
+$(function() {
+document.getElementById("p36").innerHTML="免费企业证书";
+document.getElementById("p36-1").innerHTML="签名";
+document.getElementById("images36").src="images/ios/企业证书.png";
+document.getElementById("p36-2").innerHTML="用于IPA签名";
+document.getElementById("p36-3").innerHTML="无";
+});
+$(function() {
+document.getElementById("p1url36").href="https://zzsnapp.tocmcc.cn/d/iPA%E5%88%86%E4%BA%AB/%E4%BC%81%E4%B8%9A%E8%AF%81%E4%B9%A6/%E4%BC%81%E4%B8%9A%E8%AF%81%E4%B9%A68.12.zip";
+document.getElementById("images36-1").src="images/ios/企业证书.png";
+document.getElementById("p36-1-1").innerHTML="免费企业证书";
+document.getElementById("p36-1-2").innerHTML="用于IPA签名";
+document.getElementById("p36-1-3").innerHTML="支持系统";
+document.getElementById("p36-1-4").innerHTML="所有";
+document.getElementById("p36-1-5").innerHTML="支持设备";
+document.getElementById("p36-1-6").innerHTML="所有";
+document.getElementById("p36-1-9").innerHTML="软件说明";
+document.getElementById("p36-1-10").innerHTML="用于IPA签名";
+document.getElementById("p36-1-11").innerHTML="更新时间";
+document.getElementById("p36-1-12").innerHTML="无";
+});
 
 
 
