@@ -270,16 +270,16 @@
 	height:50px;
 }
 .tab_con .item .software .software-describe .icon_type1 {
-	background-image:url(https://cdn.jsdelivr.net/gh/zzsnn/jsdelivr-fome/app/icon-lable1.png);
+	background-image:url(../images/icon-lable1.png);
 }
 .tab_con .item .software .software-describe .icon_type2 {
-	background-image:url(https://cdn.jsdelivr.net/gh/zzsnn/jsdelivr-fome/app/icon-lable2.png);
+	background-image:url(../images/icon-lable2.png);
 }
 .tab_con .item .software .software-describe .icon_type3 {
-	background-image:url(https://cdn.jsdelivr.net/gh/zzsnn/jsdelivr-fome/app/icon-lable3.png);
+	background-image:url(../images/icon-lable3.png);
 }
 .tab_con .item .software .software-describe .icon_type4 {
-	background-image:url(https://cdn.jsdelivr.net/gh/zzsnn/jsdelivr-fome/app/icon-lable4.png);
+	background-image:url(../images/icon-lable4.png);
 }
 .cards {
 	background:hsl(0deg 0% 100%);
@@ -346,16 +346,16 @@
 	height:45px;
 }
 .tuijian .tuijian_items .software .software-describe .icon_type1 {
-	background-image:url(https://cdn.jsdelivr.net/gh/zzsnn/jsdelivr-fome/app/icon-lable1.png);
+	background-image:url(../images/icon-lable1.png);
 }
 .tuijian .tuijian_items .software .software-describe .icon_type2 {
-	background-image:url(https://cdn.jsdelivr.net/gh/zzsnn/jsdelivr-fome/app/icon-lable2.png);
+	background-image:url(../images/icon-lable2.png);
 }
 .tuijian .tuijian_items .software .software-describe .icon_type3 {
-	background-image:url(https://cdn.jsdelivr.net/gh/zzsnn/jsdelivr-fome/app/icon-lable3.png);
+	background-image:url(../images/icon-lable3.png);
 }
 .tuijian .tuijian_items .software .software-describe .icon_type4 {
-	background-image:url(https://cdn.jsdelivr.net/gh/zzsnn/jsdelivr-fome/app/icon-lable4.png);
+	background-image:url(../images/icon-lable4.png);
 }
 .software .software-describe .type {
 	position:absolute;
@@ -1139,7 +1139,7 @@ to {
 	height:20px;
 	margin:0px 0px 0px 30px;
 	position:absolute;
-	background-image:url(https://cdn.jsdelivr.net/gh/zzsnn/jsdelivr-fome/app/Horn_icon.png);
+	background-image:url(../images/Horn_icon.png);
 	background-position:center center;
 	background-size:100%;
 }
@@ -1196,7 +1196,7 @@ to {
     border-radius: 8px;
 }
 .pageContent{
-    /* width: calc(100vw - 60px); */
+    width: calc(100vw - 60px);
     /* padding-bottom: 30px; */
 }
 #lookReadmeBtn{
@@ -1242,9 +1242,6 @@ to {
     width: 100vw;
     height: 100vh;
     display: none;
-	-webkit-overflow-scrolling : touch; 
-	animation: showPageKeyFrame-data-v-2033a8d1 .3s;
-    -webkit-animation: showPageKeyFrame-data-v-2033a8d1 .3s;
 }
 
 /*模态框公共样式*/
@@ -1265,12 +1262,12 @@ to {
 }
 
 /* 正常大小 */
-/*
+
 .modal-normal {
 	bottom: 0;
-	width: 600px;
+	/*width: 600px;*/
 }
-*/
+
 
 /* 中等大小 */
 .modal-medium {
