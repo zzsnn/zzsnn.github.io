@@ -1242,6 +1242,9 @@ to {
     width: 100vw;
     height: 100vh;
     display: none;
+	-webkit-overflow-scrolling : touch; 
+	animation: showPageKeyFrame-data-v-2033a8d1 .3s;
+    -webkit-animation: showPageKeyFrame-data-v-2033a8d1 .3s;
 }
 
 /*模态框公共样式*/

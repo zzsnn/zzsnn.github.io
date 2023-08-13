@@ -45,7 +45,7 @@ $(function() {
     }
 
 
-    	// 获取触发模态框的自定义属性
+    // 获取触发模态框的自定义属性
 	var modalButtons = document.querySelectorAll("[data-modal-action]");
 	// 获取模态框主体
 	var modals = document.querySelectorAll(".modal");
@@ -72,6 +72,7 @@ $(function() {
 	function openModal(modal) {
 		modal.style.display = "block";
 		modal.querySelector(".modal-content").classList.remove("modal-hide");
+        document.querySelector('body').style.overflow = 'hidden';
 	}
 
 	// 关闭模态框
@@ -80,6 +81,7 @@ $(function() {
 		modal.querySelector(".modal-content").addEventListener("animationend", function () {
 			modal.style.display = "none";
 		}, { once: true });
+        document.querySelector('body').style.overflow = 'auto';
 	}
 
 	// 监听模态框的关闭时事件
