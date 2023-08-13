@@ -15,68 +15,76 @@
 <script type="text/javascript" src=js/ios.js></script>
 
 
-
-
-
-		<script>
-			var ConsoleManager = {
-    onOpen: function() {
-        alert("Console is opened")
-    },
-    onClose: function() {
-        alert("Console is closed")
-    },
-    init: function() {
-        var n = this,
-            e = document.createElement("div"),
-            o = !1,
-            t = !1;
-        Object.defineProperty(e, "id", {
-            get: function() {
-                o || (n.onOpen(), o = !0), t = !0
-            }
-        }), setInterval(function() {
-            t = !1, console.info(e), console.clear(), !t && o && (n.onClose(), o = !1)
-        }, 200)
-    }
+<script type=text/javascript>
+    window.onload = function() {
+      document.onkeydown = function() {
+       window.event || arguments[0];
+       return event.ctrlKey && 85 == window.event.keyCode ? !1 : void 0
+      }, document.oncontextmenu = function() {
+         return !1
+     }
+   };
+  </script>
+  
+  <script>
+      var ConsoleManager = {
+onOpen: function() {
+  alert("Console is opened")
+},
+onClose: function() {
+  alert("Console is closed")
+},
+init: function() {
+  var n = this,
+      e = document.createElement("div"),
+      o = !1,
+      t = !1;
+  Object.defineProperty(e, "id", {
+      get: function() {
+          o || (n.onOpen(), o = !0), t = !0
+      }
+  }), setInterval(function() {
+      t = !1, console.info(e), console.clear(), !t && o && (n.onClose(), o = !1)
+  }, 200)
+}
 };
 ConsoleManager.onOpen = function() {
-    try {
-        window.open("https://www.baidu.com/", target = "_self")
-    } catch (n) {
-        var e = document.createElement("button");
-        e.onclick = function() {
-            window.open("https://www.baidu.com", target = "_self")
-        }, e.click()
-    }
-}, ConsoleManager.onClose = function() {
-    alert("Console is closed!!!!!")
-}, ConsoleManager.init();
-		</script>
-		<script>
-			var ua = navigator.userAgent.toLowerCase();
-"micromessenger" == ua.match(/MicroMessenger/i) && (window.location.href = "wxmask.html");
-		</script>
-		<script>
-			if ("standalone" in window.navigator && window.navigator.standalone) {
-    var noddy, remotes = !1;
-    document.addEventListener("click", function(n) {
-        for (noddy = n.target;
-            "A" !== noddy.nodeName && "HTML" !== noddy.nodeName;) noddy = noddy.parentNode;
-        "href" in noddy && -1 !== noddy.href.indexOf("http") && (-1 !== noddy.href.indexOf(document.location.host) || remotes) && (n.preventDefault(), document.location.href = noddy.href)
-    }, !1)
+try {
+  window.open("https://www.baidu.com/", target = "_self")
+} catch (n) {
+  var e = document.createElement("button");
+  e.onclick = function() {
+      window.open("https://www.baidu.com", target = "_self")
+  }, e.click()
 }
-		</script>
+}, ConsoleManager.onClose = function() {
+alert("Console is closed!!!!!")
+}, ConsoleManager.init();
+  </script>
 
-		<script>
-			var _hmt = _hmt || [];
+  <script>
+      var ua = navigator.userAgent.toLowerCase();
+"micromessenger" == ua.match(/MicroMessenger/i) && (window.location.href = "wxmask.html");
+  </script>
+  <script>
+      if ("standalone" in window.navigator && window.navigator.standalone) {
+var noddy, remotes = !1;
+document.addEventListener("click", function(n) {
+  for (noddy = n.target;
+      "A" !== noddy.nodeName && "HTML" !== noddy.nodeName;) noddy = noddy.parentNode;
+  "href" in noddy && -1 !== noddy.href.indexOf("http") && (-1 !== noddy.href.indexOf(document.location.host) || remotes) && (n.preventDefault(), document.location.href = noddy.href)
+}, !1)
+}
+  </script>
+  <script>
+      var _hmt = _hmt || [];
 ! function() {
-    var n = document.createElement("script");
-    n.src = "https://hm.baidu.com/hm.js?ac7d72e891ed6136a449ffe01f3aa86e";
-    var e = document.getElementsByTagName("script")[0];
-    e.parentNode.insertBefore(n, e)
+var n = document.createElement("script");
+n.src = "https://hm.baidu.com/hm.js?ac7d72e891ed6136a559ffe01f3aa86e";
+var e = document.getElementsByTagName("script")[0];
+e.parentNode.insertBefore(n, e)
 }();
-		</script>
+  </script>
 
 
 

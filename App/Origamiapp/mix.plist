@@ -11,7 +11,7 @@
 	<key>kind</key>
 	<string>software-package</string>
 	<key>url</key>
-	<string>https://zzsnapp.tocmcc.cn/d/iPA%E5%88%86%E4%BA%AB/IPA%E4%B8%8B%E8%BD%BD%E5%99%A8</string>
+	<string>https://zzsnapp.tocmcc.cn/d/iPA%E5%88%86%E4%BA%AB/MIX.ipa</string>
 	</dict>
 	<dict>
 	<key>kind</key>
@@ -25,15 +25,15 @@
 	<key>metadata</key>
 	<dict>
 	<key>bundle-identifier</key>
-	<string>com.ipa.ios</string>
+	<string>com.mix.ios</string>
 	<key>bundle-version</key>
-	<string>0.2</string>
+	<string>0.3</string>
 	<key>kind</key>
 	<string>software</string>
 	<key>subtitle</key>
 	<string>执着いAppStore</string>
 	<key>title</key>
-	<string>ipa下载器</string>
+	<string>MIX滤镜大师</string>
 	</dict>
 	</dict>
 	</array>
