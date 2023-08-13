@@ -1566,12 +1566,11 @@ document.getElementById("p105-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url105").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/dynamiCow.plist";
-document.getElementById("p1url105-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E7%B3%BB%E7%BB%9F%2FDynamiCow%E7%81%B5%E5%8A%A8%E5%B2%9B.ipa";
 document.getElementById("images105-1").src="images/ios/DynamiCow灵动岛.jpeg";
 document.getElementById("p105-1-1").innerHTML="DynamiCow灵动岛";
 document.getElementById("p105-1-2").innerHTML="支持 iOS 16.0 - 16.1.2 系统";
 document.getElementById("p105-1-3").innerHTML="支持系统";
-document.getElementById("p105-1-4").innerHTML="iOS 15.0 - 15.7.1 / iOS 16.0 - 16.1.2";
+document.getElementById("p105-1-4").innerHTML="支持 iOS 16.0 - 16.1.2 系统";
 document.getElementById("p105-1-5").innerHTML="支持设备";
 document.getElementById("p105-1-6").innerHTML="A9 - A16";
 document.getElementById("p105-1-9").innerHTML="软件说明";
