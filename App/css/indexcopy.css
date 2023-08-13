@@ -1262,25 +1262,13 @@ to {
 
 /*模态框公共样式*/
 .modal-content {
-    background-color: #fefefe;
-    margin: 0px auto 20px;
-    padding: 20px;
-    border: 1px solid #888;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-    animation: modal-show 0.3s;
-    border-radius: 20px;
-    width: calc(100vw - 20px);
-    left: 10px;
-    background: hsla(0,0%,100%,1);
-    /* height: 50vh; */
-    position: fixed;
-    border-radius: 20px;
-    padding-bottom: 30px;
-    overflow: auto;
-    color: #000!important;
-    bottom: 0;
-    -webkit-backdrop-filter: saturate(180%) blur(30px);
-    backdrop-filter: saturate(180%) blur(30px);
+	background-color: #fefefe;
+	margin: 200px auto 0;
+	padding: 20px;
+	border: 1px solid #888;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	animation: modal-show 0.3s;
+	border-radius: 20px;
 }
 
 /* 正常大小 */

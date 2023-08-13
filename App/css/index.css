@@ -1196,7 +1196,7 @@ to {
     border-radius: 8px;
 }
 .pageContent{
-    width: calc(100vw - 60px);
+    /* width: calc(100vw - 60px); */
     /* padding-bottom: 30px; */
 }
 #lookReadmeBtn{
@@ -1262,12 +1262,12 @@ to {
 }
 
 /* 正常大小 */
-
+/*
 .modal-normal {
 	bottom: 0;
-	/*width: 600px;*/
+	width: 600px;
 }
-
+*/
 
 /* 中等大小 */
 .modal-medium {
