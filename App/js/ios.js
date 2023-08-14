@@ -1620,7 +1620,7 @@ $(".ioszsyzpd").each(function(){
     //对内容的一些操作
     if(chang.length){
         //比如字符不大于2的就替换成嘟嘟
-        $(this).html('正常中');
+        $(this).html('已掉签');
         console.log('2个字符内:'+chang);
     }else{
         console.log('大于2个字符:'+chang);
@@ -1659,7 +1659,7 @@ $(".iosgxsj").each(function(){
     //对内容的一些操作
     if(chang.length){
         //比如字符不大于2的就替换成嘟嘟
-        $(this).html('2023.8.14');
+        $(this).html('维护中');
     }
 });
 
