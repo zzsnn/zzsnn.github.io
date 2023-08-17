@@ -7,7 +7,7 @@ document.getElementById("p1-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/emoVPN.plist";
-document.getElementById("p1url-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2FemoVPN.ipa";
+document.getElementById("p1url-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2FemoVPN.ipa";
 document.getElementById("images-1").src="images/ios/emoVPN.png";
 document.getElementById("p1-1-1").innerHTML="emoVPN";
 document.getElementById("p1-1-2").innerHTML="梯子解锁VIP限制";
@@ -32,7 +32,7 @@ document.getElementById("p2-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url2").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/ipa.plist";
-document.getElementById("p1url2-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2FIPA%E4%B8%8B%E8%BD%BD%E5%99%A8.ipa";
+document.getElementById("p1url2-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2FIPA%E4%B8%8B%E8%BD%BD%E5%99%A8.ipa";
 document.getElementById("images2-1").src="images/ios/IPA下载器.jpg";
 document.getElementById("p2-1-1").innerHTML="IPA下载器";
 document.getElementById("p2-1-2").innerHTML="用于网站IPA文件下载";
@@ -57,7 +57,7 @@ document.getElementById("p3-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url3").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/mix.plist";
-document.getElementById("p1url3-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2FMIX.ipa";
+document.getElementById("p1url3-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2FMIX.ipa";
 document.getElementById("images3-1").src="images/ios/MIX.jpg";
 document.getElementById("p3-1-1").innerHTML="MIX滤镜大师";
 document.getElementById("p3-1-2").innerHTML="解锁VIP限制";
@@ -82,7 +82,7 @@ document.getElementById("p4-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url4").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/TikTok.plist";
-document.getElementById("p1url4-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2FTikTok%25E5%259B%25BD%25E9%2599%2585%25E7%2589%2588.ipa";
+document.getElementById("p1url4-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2FTikTok%E5%9B%BD%E9%99%85%E7%89%88.ipa";
 document.getElementById("images4-1").src="images/ios/TikTok国际版.jpg";
 document.getElementById("p4-1-1").innerHTML="TikTok国际版";
 document.getElementById("p4-1-2").innerHTML="去广告、水印";
@@ -107,7 +107,7 @@ document.getElementById("p5-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url5").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/wpsoffice.plist";
-document.getElementById("p1url5-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2FWPS%2520Office.ipa";
+document.getElementById("p1url5-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2FWPS%20Office.ipa";
 document.getElementById("images5-1").src="images/ios/WPSOffice.jpg";
 document.getElementById("p5-1-1").innerHTML="WPS Office";
 document.getElementById("p5-1-2").innerHTML="解锁VIP限制";
@@ -132,7 +132,7 @@ document.getElementById("p6-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url6").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/baiduwangpan.plist";
-document.getElementById("p1url6-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98.ipa";
+document.getElementById("p1url6-1").href="apple-magnifier://install?url=https://www.zzsn.asia/d/iPA%E5%88%86%E4%BA%AB/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98.ipa";
 document.getElementById("images6-1").src="images/ios/百度网盘.jpg";
 document.getElementById("p6-1-1").innerHTML="百度网盘";
 document.getElementById("p6-1-2").innerHTML="解锁VIP限制";
@@ -157,7 +157,7 @@ document.getElementById("p7-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url7").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/dashenshuiyin.plist";
-document.getElementById("p1url7-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%A4%A7%E7%A5%9E%E6%B0%B4%E5%8D%B0.ipa";
+document.getElementById("p1url7-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%A4%A7%E7%A5%9E%E6%B0%B4%E5%8D%B0.ipa";
 document.getElementById("images7-1").src="images/ios/大神水印.jpg";
 document.getElementById("p7-1-1").innerHTML="大神水印";
 document.getElementById("p7-1-2").innerHTML="解锁VIP限制";
@@ -182,7 +182,7 @@ document.getElementById("p8-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url8").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/dingding.plist";
-document.getElementById("p1url8-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2F%25E9%2592%2589%25E9%2592%2589Pro.ipa";
+document.getElementById("p1url8-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E9%92%89%E9%92%89Pro.ipa";
 document.getElementById("images8-1").src="images/ios/钉钉.jpg";
 document.getElementById("p8-1-1").innerHTML="钉钉Pro";
 document.getElementById("p8-1-2").innerHTML="虚拟定位打卡增强";
@@ -207,7 +207,7 @@ document.getElementById("p9-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url9").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/douyin.plist";
-document.getElementById("p1url9-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E6%8A%96%E9%9F%B3%E5%87%80%E5%8C%96%E7%89%88.ipa";
+document.getElementById("p1url9-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E6%8A%96%E9%9F%B3%E5%87%80%E5%8C%96%E7%89%88.ipa";
 document.getElementById("images9-1").src="images/ios/TikTok国际版.jpg";
 document.getElementById("p9-1-1").innerHTML="抖音净化版";
 document.getElementById("p9-1-2").innerHTML="去广告、去水印";
@@ -232,7 +232,7 @@ document.getElementById("p10-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url10").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/fanqiexiaoshuo.plist";
-document.getElementById("p1url10-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4.ipa";
+document.getElementById("p1url10-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4.ipa";
 document.getElementById("images10-1").src="images/ios/番茄小说.jpg";
 document.getElementById("p10-1-1").innerHTML="番茄小说";
 document.getElementById("p10-1-2").innerHTML="解锁VIP限制";
@@ -257,7 +257,7 @@ document.getElementById("p11-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url11").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/gaodeditu.plist";
-document.getElementById("p1url11-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE.ipa";
+document.getElementById("p1url11-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE.ipa";
 document.getElementById("images11-1").src="images/ios/高德地图.jpg";
 document.getElementById("p11-1-1").innerHTML="高德地图";
 document.getElementById("p11-1-2").innerHTML="去广告增强版";
@@ -282,7 +282,7 @@ document.getElementById("p12-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url12").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/gaodinsheji.plist";
-document.getElementById("p1url12-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E7%A8%BF%E5%AE%9A%E8%AE%BE%E8%AE%A1.ipa";
+document.getElementById("p1url12-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E7%A8%BF%E5%AE%9A%E8%AE%BE%E8%AE%A1.ipa";
 document.getElementById("images12-1").src="images/ios/稿定设计.jpg";
 document.getElementById("p12-1-1").innerHTML="稿定设计";
 document.getElementById("p12-1-2").innerHTML="解锁VIP限制";
@@ -307,7 +307,7 @@ document.getElementById("p13-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url13").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/gundonjieping.plist";
-document.getElementById("p1url13-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E6%BB%9A%E5%8A%A8%E6%88%AA%E5%B1%8F.ipa";
+document.getElementById("p1url13-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E6%BB%9A%E5%8A%A8%E6%88%AA%E5%B1%8F.ipa";
 document.getElementById("images13-1").src="images/ios/滚动截屏.jpg";
 document.getElementById("p13-1-1").innerHTML="滚动截屏";
 document.getElementById("p13-1-2").innerHTML="解锁VIP限制";
@@ -332,7 +332,7 @@ document.getElementById("p14-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url14").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/jiaxiaoyidiantong.plist";
-document.getElementById("p1url14-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E9%A9%BE%E7%85%A7%E4%B8%80%E7%82%B9%E9%80%9A.ipa";
+document.getElementById("p1url14-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E9%A9%BE%E7%85%A7%E4%B8%80%E7%82%B9%E9%80%9A.ipa";
 document.getElementById("images14-1").src="images/ios/驾照一点通.jpg";
 document.getElementById("p14-1-1").innerHTML="驾照一点通";
 document.getElementById("p14-1-2").innerHTML="解锁VIP限制";
@@ -357,7 +357,7 @@ document.getElementById("p15-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url15").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/jieyazhuanjia.plist";
-document.getElementById("p1url15-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E8%A7%A3%E5%8E%8B%E4%B8%93%E5%AE%B6.ipa";
+document.getElementById("p1url15-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E8%A7%A3%E5%8E%8B%E4%B8%93%E5%AE%B6.ipa";
 document.getElementById("images15-1").src="images/ios/解压专家.jpg";
 document.getElementById("p15-1-1").innerHTML="解压专家";
 document.getElementById("p15-1-2").innerHTML="解锁VIP限制";
@@ -382,7 +382,7 @@ document.getElementById("p16-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url16").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/jingdongduokai.plist";
-document.getElementById("p1url16-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E4%BA%AC%E4%B8%9C%E5%A4%9A%E5%BC%80.ipa";
+document.getElementById("p1url16-1").href="apple-magnifier://install?url=hhttps%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E4%BA%AC%E4%B8%9C%E5%A4%9A%E5%BC%80.ipa";
 document.getElementById("images16-1").src="images/ios/京东多开.jpg";
 document.getElementById("p16-1-1").innerHTML="京东多开";
 document.getElementById("p16-1-2").innerHTML="砸壳纯净多开版";
@@ -407,7 +407,7 @@ document.getElementById("p17-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url17").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/kaoshibao.plist";
-document.getElementById("p1url17-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2F%25E8%2580%2583%25E8%25AF%2595%25E5%25AE%259D.ipa";
+document.getElementById("p1url17-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E8%80%83%E8%AF%95%E5%AE%9D.ipa";
 document.getElementById("images17-1").src="images/ios/考试宝.jpg";
 document.getElementById("p17-1-1").innerHTML="考试宝";
 document.getElementById("p17-1-2").innerHTML="解锁VIP限制";
@@ -432,7 +432,7 @@ document.getElementById("p18-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url18").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/kuwoyinyue.plist";
-document.getElementById("p1url18-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90.ipa";
+document.getElementById("p1url18-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90.ipa";
 document.getElementById("images18-1").src="images/ios/酷我音乐.jpg";
 document.getElementById("p18-1-1").innerHTML="酷我音乐";
 document.getElementById("p18-1-2").innerHTML="解锁VIP限制";
@@ -457,7 +457,7 @@ document.getElementById("p19-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url19").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/motibang.plist";
-document.getElementById("p1url19-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2F%25E7%25A3%25A8%25E9%25A2%2598%25E5%25B8%25AE.ipa";
+document.getElementById("p1url19-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E7%A3%A8%E9%A2%98%E5%B8%AE.ipa";
 document.getElementById("images19-1").src="images/ios/磨题帮.jpg";
 document.getElementById("p19-1-1").innerHTML="磨题帮";
 document.getElementById("p19-1-2").innerHTML="解锁VIP限制";
@@ -482,7 +482,7 @@ document.getElementById("p20-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url20").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/peiyinpeiyin.plist";
-document.getElementById("p1url20-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2F%25E5%259F%25B9%25E9%259F%25B3%25E9%2585%258D%25E9%259F%25B3.ipa";
+document.getElementById("p1url20-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%9F%B9%E9%9F%B3%E9%85%8D%E9%9F%B3.ipa";
 document.getElementById("images20-1").src="images/ios/培音配音.jpg";
 document.getElementById("p20-1-1").innerHTML="培音配音";
 document.getElementById("p20-1-2").innerHTML="解锁VIP限制";
@@ -507,7 +507,7 @@ document.getElementById("p21-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url21").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/pinduoduo.plist";
-document.getElementById("p1url21-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2F%25E6%258B%25BC%25E5%25A4%259A%25E5%25A4%259A.ipa";
+document.getElementById("p1url21-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E6%8B%BC%E5%A4%9A%E5%A4%9A.ipa";
 document.getElementById("images21-1").src="images/ios/拼多多.jpg";
 document.getElementById("p21-1-1").innerHTML="拼多多";
 document.getElementById("p21-1-2").innerHTML="砸壳纯净版";
@@ -532,7 +532,7 @@ document.getElementById("p22-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url22").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/qingningsheji.plist";
-document.getElementById("p1url22-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2F%25E9%259D%2592%25E6%259F%25A0%25E8%25AE%25BE%25E8%25AE%25A1.ipa";
+document.getElementById("p1url22-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E9%9D%92%E6%9F%A0%E8%AE%BE%E8%AE%A1.ipa";
 document.getElementById("images22-1").src="images/ios/青柠设计.jpg";
 document.getElementById("p22-1-1").innerHTML="青柠设计";
 document.getElementById("p22-1-2").innerHTML="解锁VIP限制";
@@ -557,7 +557,7 @@ document.getElementById("p23-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url23").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/qingtingyinyu.plist";
-document.getElementById("p1url23-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2F%25E8%25BD%25BB%25E5%2590%25AC%25E8%258B%25B1%25E8%25AF%25AD.ipa";
+document.getElementById("p1url23-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E8%BD%BB%E5%90%AC%E8%8B%B1%E8%AF%AD.ipa";
 document.getElementById("images23-1").src="images/ios/轻听英语.jpg";
 document.getElementById("p23-1-1").innerHTML="轻听英语";
 document.getElementById("p23-1-2").innerHTML="解锁VIP限制";
@@ -582,7 +582,7 @@ document.getElementById("p24-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url24").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/saomiaoquannengwang.plist";
-document.getElementById("p1url24-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E6%89%AB%E6%8F%8F%E5%85%A8%E8%83%BD%E7%8E%8B.ipa";
+document.getElementById("p1url24-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E6%89%AB%E6%8F%8F%E5%85%A8%E8%83%BD%E7%8E%8B.ipa";
 document.getElementById("images24-1").src="images/ios/扫描全能王.png";
 document.getElementById("p24-1-1").innerHTML="扫描全能王";
 document.getElementById("p24-1-2").innerHTML="解锁VIP限制";
@@ -607,7 +607,7 @@ document.getElementById("p25-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url25").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/xianyu.plist";
-document.getElementById("p1url25-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2F%25E9%2597%25B2%25E9%25B1%25BC.ipa";
+document.getElementById("p1url25-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E9%97%B2%E9%B1%BC.ipa";
 document.getElementById("images25-1").src="images/ios/闲鱼.jpg";
 document.getElementById("p25-1-1").innerHTML="闲鱼";
 document.getElementById("p25-1-2").innerHTML="砸壳去广告";
@@ -632,7 +632,7 @@ document.getElementById("p26-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url26").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/xiongmaochiduanxiin.plist";
-document.getElementById("p1url26-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E7%86%8A%E7%8C%AB%E5%90%83%E7%9F%AD%E4%BF%A1.ipa";
+document.getElementById("p1url26-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E7%86%8A%E7%8C%AB%E5%90%83%E7%9F%AD%E4%BF%A1.ipa";
 document.getElementById("images26-1").src="images/ios/熊猫吃短信.jpg";
 document.getElementById("p26-1-1").innerHTML="熊猫吃短信";
 document.getElementById("p26-1-2").innerHTML="砸壳收费版";
@@ -657,7 +657,7 @@ document.getElementById("p27-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url27").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/xunlei.plist";
-document.getElementById("p1url27-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2F%25E8%25BF%2585%25E9%259B%25B7.ipa";
+document.getElementById("p1url27-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E8%BF%85%E9%9B%B7%E4%B8%8D%E9%99%90%E9%80%9F.ipa";
 document.getElementById("images27-1").src="images/ios/迅雷.jpg";
 document.getElementById("p27-1-1").innerHTML="迅雷";
 document.getElementById("p27-1-2").innerHTML="解锁VIP限制";
@@ -682,7 +682,7 @@ document.getElementById("p28-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url28").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/yueyuxuexitong.plist";
-document.getElementById("p1url28-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E7%B2%A4%E8%AF%AD%E5%AD%A6%E4%B9%A0%E9%80%9A.ipa";
+document.getElementById("p1url28-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E7%B2%A4%E8%AF%AD%E5%AD%A6%E4%B9%A0%E9%80%9A.ipa";
 document.getElementById("images28-1").src="images/ios/粤语学习通.jpg";
 document.getElementById("p28-1-1").innerHTML="粤语学习通";
 document.getElementById("p28-1-2").innerHTML="解锁VIP限制";
@@ -707,7 +707,7 @@ document.getElementById("p29-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url29").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/zuimeibizhi.plist";
-document.getElementById("p1url29-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2F%25E6%259C%2580%25E7%25BE%258E%25E5%25A3%2581%25E7%25BA%25B8.ipa";
+document.getElementById("p1url29-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E6%9C%80%E7%BE%8E%E5%A3%81%E7%BA%B8.ipa";
 document.getElementById("images29-1").src="images/ios/最美壁纸.jpg";
 document.getElementById("p29-1-1").innerHTML="最美壁纸";
 document.getElementById("p29-1-2").innerHTML="解锁VIP限制";
@@ -732,7 +732,7 @@ document.getElementById("p30-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url30").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/mangguotv.plist";
-document.getElementById("p1url30-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2F%25E5%25BD%25B1%25E8%25A7%2586%2F%25E8%258A%2592%25E6%259E%259CTV.ipa";
+document.getElementById("p1url30-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%BD%B1%E8%A7%86%2F%E8%8A%92%E6%9E%9CTV.ipa";
 document.getElementById("images30-1").src="images/ios/芒果TV.jpg";
 document.getElementById("p30-1-1").innerHTML="芒果TV";
 document.getElementById("p30-1-2").innerHTML="解锁VIP限制";
@@ -741,7 +741,7 @@ document.getElementById("p30-1-4").innerHTML="所有";
 document.getElementById("p30-1-5").innerHTML="支持设备";
 document.getElementById("p30-1-6").innerHTML="所有";
 document.getElementById("p30-1-9").innerHTML="软件说明";
-document.getElementById("p30-1-10").innerHTML="解锁VIP限制";
+document.getElementById("p30-1-10").innerHTML="解锁VIP限制，失效得很快";
 document.getElementById("p30-1-11").innerHTML="更新时间";
 document.getElementById("p30-1-12").innerHTML="无";
 });
@@ -757,7 +757,7 @@ document.getElementById("p31-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url31").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/danboxingqiu.plist";
-document.getElementById("p1url31-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%BD%B1%E8%A7%86%2F%E8%9B%8B%E6%92%AD%E6%98%9F%E7%90%83.ipa";
+document.getElementById("p1url31-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%BD%B1%E8%A7%86%2F%E8%9B%8B%E6%92%AD%E6%98%9F%E7%90%83.ipa";
 document.getElementById("images31-1").src="images/ios/蛋播星球.jpg";
 document.getElementById("p31-1-1").innerHTML="蛋播星球";
 document.getElementById("p31-1-2").innerHTML="解锁VIP限制";
@@ -782,7 +782,7 @@ document.getElementById("p32-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url32").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/feiboyingshi.plist";
-document.getElementById("p1url32-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%BD%B1%E8%A7%86%2F%E8%82%A5%E6%B3%A2%E5%BD%B1%E8%A7%86.ipa";
+document.getElementById("p1url32-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%BD%B1%E8%A7%86%2F%E8%82%A5%E6%B3%A2%E5%BD%B1%E8%A7%86.ipa";
 document.getElementById("images32-1").src="images/ios/肥波影视.jpg";
 document.getElementById("p32-1-1").innerHTML="肥波影视";
 document.getElementById("p32-1-2").innerHTML="解锁VIP限制";
@@ -807,7 +807,7 @@ document.getElementById("p33-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url33").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/haomaoyingshi.plist";
-document.getElementById("p1url33-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%BD%B1%E8%A7%86%2F%E5%A5%BD%E7%8C%AB%E5%BD%B1%E8%A7%86.ipa";
+document.getElementById("p1url33-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%BD%B1%E8%A7%86%2F%E5%A5%BD%E7%8C%AB%E5%BD%B1%E8%A7%86.ipa";
 document.getElementById("images33-1").src="images/ios/好猫影视.jpg";
 document.getElementById("p33-1-1").innerHTML="好猫影视";
 document.getElementById("p33-1-2").innerHTML="解锁VIP限制";
@@ -832,7 +832,7 @@ document.getElementById("p34-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url34").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/xuehuayingshi.plist";
-document.getElementById("p1url34-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%BD%B1%E8%A7%86%2F%E9%9B%AA%E8%8A%B1%E5%BD%B1%E8%A7%86.ipa";
+document.getElementById("p1url34-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%BD%B1%E8%A7%86%2F%E9%9B%AA%E8%8A%B1%E5%BD%B1%E8%A7%86.ipa";
 document.getElementById("images34-1").src="images/ios/雪花影视.jpg";
 document.getElementById("p34-1-1").innerHTML="雪花影视";
 document.getElementById("p34-1-2").innerHTML="解锁VIP限制";
@@ -857,7 +857,7 @@ document.getElementById("p35-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url35").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/yingshigongchang.plist";
-document.getElementById("p1url35-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%BD%B1%E8%A7%86%2F%E5%BD%B1%E8%A7%86%E5%B7%A5%E5%9C%BA.ipa";
+document.getElementById("p1url35-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%BD%B1%E8%A7%86%2F%E5%BD%B1%E8%A7%86%E5%B7%A5%E5%9C%BA.ipa";
 document.getElementById("images35-1").src="images/ios/影视工场.jpg";
 document.getElementById("p35-1-1").innerHTML="影视工厂";
 document.getElementById("p35-1-2").innerHTML="解锁VIP限制";
@@ -881,7 +881,7 @@ document.getElementById("p36-2").innerHTML="用于IPA签名";
 document.getElementById("p36-3").innerHTML="无";
 });
 $(function() {
-document.getElementById("p1url36").href="https://zzsnapp.tocmcc.cn/d/iPA%E5%88%86%E4%BA%AB/%E4%BC%81%E4%B8%9A%E8%AF%81%E4%B9%A6/%E4%BC%81%E4%B8%9A%E8%AF%81%E4%B9%A68.12.zip";
+document.getElementById("p1url36").href="https://www.zzsn.asia/d/iPA%E5%88%86%E4%BA%AB/%E4%BC%81%E4%B8%9A%E8%AF%81%E4%B9%A6/%E4%BC%81%E4%B8%9A%E8%AF%81%E4%B9%A68.12.zip";
 document.getElementById("images36-1").src="images/ios/企业证书.png";
 document.getElementById("p36-1-1").innerHTML="免费企业证书";
 document.getElementById("p36-1-2").innerHTML="用于IPA签名";
@@ -1003,7 +1003,7 @@ document.getElementById("p53-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url53").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/trollstore15.1.1.plist";
-document.getElementById("p1url53-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E8%B6%8A%E7%8B%B1%2FTrollStore%E6%94%AF%E6%8C%81A10-A15%20iOS15-15.1.ipa";
+document.getElementById("p1url53-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E8%B6%8A%E7%8B%B1%2FTrollStore%E6%94%AF%E6%8C%81A10-A15%20iOS15-15.1.ipa";
 document.getElementById("images53-1").src="images/ios/TrollStore.jpg";
 document.getElementById("p53-1-1").innerHTML="TrollStore(永久签)";
 document.getElementById("p53-1-2").innerHTML="支持 iOS 15.0 - 15.1.1 系统";
@@ -1027,8 +1027,8 @@ document.getElementById("p54-2").innerHTML="支持 iOS 14.0 - 15.4.1 系统";
 document.getElementById("p54-3").innerHTML="无";
 });
 $(function() {
-document.getElementById("p1url54").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/trollstore15.4.1.plist";
-document.getElementById("p1url54-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E8%B6%8A%E7%8B%B1%2FTrollStore%E6%94%AF%E6%8C%81A9-A15%20iOS14-15.4.1.ipa";
+document.getElementById("p1url54").href="itms-services://?action=download-manifest&amp;url=https://sdq1asd.tocmcc.cn/webdav/Origamiapp/trollstore15.4.1.plist";
+document.getElementById("p1url54-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsn-1254124568.cos.ap-guangzhou.myqcloud.com%2FIPA%25E4%25B8%258B%25E8%25BD%25BD%25E5%2599%25A8.ipa";
 document.getElementById("images54-1").src="images/ios/TrollStore.jpg";
 document.getElementById("p54-1-1").innerHTML="TrollStore(永久签)";
 document.getElementById("p54-1-2").innerHTML="支持 iOS 14.0 - 15.4.1 系统";
@@ -1053,7 +1053,7 @@ document.getElementById("p55-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url55").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/dopamine.plist";
-document.getElementById("p1url55-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2F%25E8%25B6%258A%25E7%258B%25B1%2FDopamine.ipa";
+document.getElementById("p1url55-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E8%B6%8A%E7%8B%B1%2FDopamine.ipa";
 document.getElementById("images55-1").src="images/ios/Dopamine.jpeg";
 document.getElementById("p55-1-1").innerHTML="Dopamine";
 document.getElementById("p55-1-2").innerHTML="支持 iOS 15.0 - 15.4.1 系统";
@@ -1077,7 +1077,7 @@ document.getElementById("p56-2").innerHTML="支持 iOS 12.0 - 16.6 系统";
 document.getElementById("p56-3").innerHTML="无";
 });
 $(function() {
-document.getElementById("p1url56").href="https://zzsnapp.tocmcc.cn/d/iPA%E5%88%86%E4%BA%AB/%E8%B6%8A%E7%8B%B1/WinRa1n.zip";
+document.getElementById("p1url56").href="https://www.zzsn.asia/d/iPA%E5%88%86%E4%BA%AB/%E8%B6%8A%E7%8B%B1/WinRa1n.zip";
 document.getElementById("images56-1").src="images/ios/Checkra1n.jpg";
 document.getElementById("p56-1-1").innerHTML="WinRa1n(电脑版)";
 document.getElementById("p56-1-2").innerHTML="支持 iOS 12.0 - 16.6 系统";
@@ -1101,7 +1101,8 @@ document.getElementById("p57-2").innerHTML="支持 iOS 12.0 - 14.8 系统";
 document.getElementById("p57-3").innerHTML="无";
 });
 $(function() {
-document.getElementById("p1url57").href="https://zzsnapp.tocmcc.cn/d/iPA%E5%88%86%E4%BA%AB/%E8%B6%8A%E7%8B%B1/Checkra1n.zip";
+document.getElementById("p1url57").href="https://checkra.in/";
+document.getElementById("p1url57-1").href="https://www.zzsn.asia/d/iPA%E5%88%86%E4%BA%AB/%E8%B6%8A%E7%8B%B1/Checkra1n.zip";
 document.getElementById("images57-1").src="images/ios/Checkra1n.jpg";
 document.getElementById("p57-1-1").innerHTML="Checkra1n(U盘越狱)";
 document.getElementById("p57-1-2").innerHTML="支持 iOS 12.0 - 14.8 系统";
@@ -1125,7 +1126,8 @@ document.getElementById("p58-2").innerHTML="支持 iOS 15.0 - 16.4.1 系统";
 document.getElementById("p58-3").innerHTML="无";
 });
 $(function() {
-document.getElementById("p1url58").href="https://zzsnapp.tocmcc.cn/d/iPA%E5%88%86%E4%BA%AB/%E8%B6%8A%E7%8B%B1/Palera1n.zip";
+document.getElementById("p1url58").href="https://palera1n.com/";
+document.getElementById("p1url58-1").href="https://www.zzsn.asia/d/iPA%E5%88%86%E4%BA%AB/%E8%B6%8A%E7%8B%B1/Palera1n.zip";
 document.getElementById("images58-1").src="images/ios/Palera1n.jpeg";
 document.getElementById("p58-1-1").innerHTML="Palera1n(U盘越狱)";
 document.getElementById("p58-1-2").innerHTML="支持 iOS 15.0 - 16.4.1 系统";
@@ -1150,7 +1152,7 @@ document.getElementById("p59-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url59").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/unc0ver.plist";
-document.getElementById("p1url59-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2F%25E8%25B6%258A%25E7%258B%25B1%2FUnc0ver8.0.2.ipa";
+document.getElementById("p1url59-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E8%B6%8A%E7%8B%B1%2FUnc0ver8.0.2.ipa";
 document.getElementById("images59-1").src="images/ios/Unc0ver.jpg";
 document.getElementById("p59-1-1").innerHTML="Unc0ver";
 document.getElementById("p59-1-2").innerHTML="支持 iOS 11.0 - 14.8 系统";
@@ -1175,7 +1177,7 @@ document.getElementById("p60-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url60").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/taurine.plist";
-document.getElementById("p1url60-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2F%25E8%25B6%258A%25E7%258B%25B1%2FTaurine.ipa";
+document.getElementById("p1url60-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E8%B6%8A%E7%8B%B1%2FTaurine.ipa";
 document.getElementById("images60-1").src="images/ios/Taurine.jpg";
 document.getElementById("p60-1-1").innerHTML="Taurine";
 document.getElementById("p60-1-2").innerHTML="支持 iOS 14.0 - 14.3 系统";
@@ -1200,7 +1202,7 @@ document.getElementById("p61-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url61").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/chimera.plist";
-document.getElementById("p1url61-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2F%25E8%25B6%258A%25E7%258B%25B1%2FChimera.ipa";
+document.getElementById("p1url61-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E8%B6%8A%E7%8B%B1%2FChimera.ipa";
 document.getElementById("images61-1").src="images/ios/Chimera.png";
 document.getElementById("p61-1-1").innerHTML="Chimera";
 document.getElementById("p61-1-2").innerHTML="支持 iOS 12.0 - 12.5.5 系统";
@@ -1225,7 +1227,7 @@ document.getElementById("p62-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url62").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/odyssey.plist";
-document.getElementById("p1url62-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%25E5%2588%2586%25E4%25BA%25AB%2F%25E8%25B6%258A%25E7%258B%25B1%2FOdyssey.ipa";
+document.getElementById("p1url62-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E8%B6%8A%E7%8B%B1%2FOdyssey.ipa";
 document.getElementById("images62-1").src="images/ios/Odyssey.jpg";
 document.getElementById("p62-1-1").innerHTML="Odyssey";
 document.getElementById("p62-1-2").innerHTML="支持 iOS 13.0 - 13.7 系统";
@@ -1274,6 +1276,7 @@ document.getElementById("p64-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url64").href="https://sideloadly.io/";
+document.getElementById("p1url64-1").href="https://www.zzsn.asia/d/iPA%E5%88%86%E4%BA%AB/%E8%B6%8A%E7%8B%B1/Sideloadly.zip";
 document.getElementById("images64-1").src="images/ios/Sideloadly.png";
 document.getElementById("p64-1-1").innerHTML="Sideloadly";
 document.getElementById("p64-1-2").innerHTML="电脑使用 APP ID签名,有效期7天";
@@ -1298,7 +1301,7 @@ document.getElementById("p65-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url65").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/fugu15.plist";
-document.getElementById("p1url65-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E8%B6%8A%E7%8B%B1%2FFugu15.ipa";
+document.getElementById("p1url65-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E8%B6%8A%E7%8B%B1%2FFugu15.ipa";
 document.getElementById("images65-1").src="images/ios/Fugu15.jpeg";
 document.getElementById("p65-1-1").innerHTML="Fugu15";
 document.getElementById("p65-1-2").innerHTML="支持 iOS 15.0-15.4.1 系统";
@@ -1347,7 +1350,7 @@ document.getElementById("p81-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url81").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/tim.plist";
-document.getElementById("p1url81-1").href="apple-magnifier://install?url=https://zzsnapp.tocmcc.cn/d/iPA%E5%88%86%E4%BA%AB/%E5%BE%AE%E4%BF%A1/TIM.ipa";
+document.getElementById("p1url81-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%BE%AE%E4%BF%A1%2FTIM.ipa";
 document.getElementById("images81-1").src="images/ios/TIM.jpg";
 document.getElementById("p81-1-1").innerHTML="TIM";
 document.getElementById("p81-1-2").innerHTML="虚拟定位、抢红包增强";
@@ -1372,7 +1375,7 @@ document.getElementById("p82-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url82").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/weixinguantiban.plist";
-document.getElementById("p1url82-1").href="apple-magnifier://install?url=https://zzsnapp.tocmcc.cn/d/iPA%E5%88%86%E4%BA%AB/%E5%BE%AE%E4%BF%A1/%E5%BE%AE%E4%BF%A18.0.39%E5%AE%98%E6%9B%BF%E7%89%88.ipa";
+document.getElementById("p1url82-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%BE%AE%E4%BF%A1%2F%E5%BE%AE%E4%BF%A18.0.39%E5%AE%98%E6%9B%BF%E7%89%88.ipa";
 document.getElementById("images82-1").src="images/ios/微信.png";
 document.getElementById("p82-1-1").innerHTML="微信官替版";
 document.getElementById("p82-1-2").innerHTML="注入多合一插件";
@@ -1397,7 +1400,7 @@ document.getElementById("p83-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url83").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/weixinzhengshuban.plist";
-document.getElementById("p1url83-1").href="apple-magnifier://install?url=https://zzsnapp.tocmcc.cn/d/iPA%E5%88%86%E4%BA%AB/%E5%BE%AE%E4%BF%A1/%E5%BE%AE%E4%BF%A18.0.39%E5%A4%9A%E5%BC%80%E8%AF%81%E4%B9%A6%E7%89%88.ipa";
+document.getElementById("p1url83-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%BE%AE%E4%BF%A1%2F%E5%BE%AE%E4%BF%A18.0.39%E5%A4%9A%E5%BC%80%E8%AF%81%E4%B9%A6%E7%89%88.ipa";
 document.getElementById("images83-1").src="images/ios/微信.png";
 document.getElementById("p83-1-1").innerHTML="微信证书版";
 document.getElementById("p83-1-2").innerHTML="注入多合一插件";
@@ -1422,7 +1425,7 @@ document.getElementById("p84-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url84").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/qiyeweixin.plist";
-document.getElementById("p1url84-1").href="apple-magnifier://install?url=https://zzsnapp.tocmcc.cn/d/iPA%E5%88%86%E4%BA%AB/%E5%BE%AE%E4%BF%A1/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1.ipa";
+document.getElementById("p1url84-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E5%BE%AE%E4%BF%A1%2F%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1.ipa";
 document.getElementById("images84-1").src="images/ios/企业微信.jpg";
 document.getElementById("p84-1-1").innerHTML="企业微信";
 document.getElementById("p84-1-2").innerHTML="防撤回、抢红包增强，首页顶部消息点击5下";
@@ -1468,7 +1471,7 @@ document.getElementById("p101-2").innerHTML="安装18bit描述文件屏蔽广告
 document.getElementById("p101-3").innerHTML="无";
 });
 $(function() {
-document.getElementById("p1url101").href="https://zzsnapp.tocmcc.cn/d/iPA%E5%88%86%E4%BA%AB/%E7%B3%BB%E7%BB%9F/%E5%B1%8F%E8%94%BD%E5%B9%BF%E5%91%8A.mobileconfig";
+document.getElementById("p1url101").href="https://www.zzsn.asia/d/iPA%E5%88%86%E4%BA%AB/%E7%B3%BB%E7%BB%9F/%E5%B1%8F%E8%94%BD%E5%B9%BF%E5%91%8A.mobileconfig";
 document.getElementById("images101-1").src="images/ios/18bit.jpeg";
 document.getElementById("p101-1-1").innerHTML="IOS屏蔽广告";
 document.getElementById("p101-1-2").innerHTML="安装18bit描述文件屏蔽广告";
@@ -1492,7 +1495,7 @@ document.getElementById("p102-2").innerHTML="屏蔽系统更新";
 document.getElementById("p102-3").innerHTML="无";
 });
 $(function() {
-document.getElementById("p1url102").href="https://zzsnapp.tocmcc.cn/d/iPA%E5%88%86%E4%BA%AB/%E7%B3%BB%E7%BB%9F/%E5%B1%8F%E8%94%BD%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0.mobileconfig";
+document.getElementById("p1url102").href="https://www.zzsn.asia/d/iPA%E5%88%86%E4%BA%AB/%E7%B3%BB%E7%BB%9F/%E5%B1%8F%E8%94%BD%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0.mobileconfig";
 document.getElementById("images102-1").src="images/ios/shezhi.png";
 document.getElementById("p102-1-1").innerHTML="IOS屏蔽系统更新";
 document.getElementById("p102-1-2").innerHTML="屏蔽系统更新";
@@ -1516,7 +1519,7 @@ document.getElementById("p103-2").innerHTML="使用腾讯接口";
 document.getElementById("p103-3").innerHTML="无";
 });
 $(function() {
-document.getElementById("p1url103").href="https://zzsnapp.tocmcc.cn/d/iPA%E5%88%86%E4%BA%AB/%E7%B3%BB%E7%BB%9F/%E4%BF%AE%E5%A4%8D%E5%BE%AE%E4%BF%A1%E5%BB%B6%E8%BF%9F.mobileconfig";
+document.getElementById("p1url103").href="https://www.zzsn.asia/d/iPA%E5%88%86%E4%BA%AB/%E7%B3%BB%E7%BB%9F/%E4%BF%AE%E5%A4%8D%E5%BE%AE%E4%BF%A1%E5%BB%B6%E8%BF%9F.mobileconfig";
 document.getElementById("images103-1").src="images/ios/DNS.png";
 document.getElementById("p103-1-1").innerHTML="微信延迟修复";
 document.getElementById("p103-1-2").innerHTML="使用腾讯接口";
@@ -1541,7 +1544,7 @@ document.getElementById("p104-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url104").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/appidtupoanzhuang.plist";
-document.getElementById("p1url104-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E7%B3%BB%E7%BB%9F%2FAppid%E7%AD%BE%E5%90%8D%E7%AA%81%E7%A0%B4.ipa";
+document.getElementById("p1url104-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E7%B3%BB%E7%BB%9F%2FAppid%E7%AD%BE%E5%90%8D%E7%AA%81%E7%A0%B4.ipa";
 document.getElementById("images104-1").src="images/ios/企业证书.png";
 document.getElementById("p104-1-1").innerHTML="APP ID签名突破";
 document.getElementById("p104-1-2").innerHTML="支持iOS 15.0-15.7.1 / iOS 16.0-16.1.2";
@@ -1590,7 +1593,7 @@ document.getElementById("p106-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url106").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/wifimimachakan.plist";
-document.getElementById("p1url106-1").href="apple-magnifier://install?url=https%3A%2F%2Fzzsnapp.tocmcc.cn%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E7%B3%BB%E7%BB%9F%2Fwifi%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8B.ipa";
+document.getElementById("p1url106-1").href="apple-magnifier://install?url=https%3A%2F%2Fwww.zzsn.asia%2Fd%2FiPA%E5%88%86%E4%BA%AB%2F%E7%B3%BB%E7%BB%9F%2Fwifi%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8B.ipa";
 document.getElementById("images106-1").src="images/ios/wifi密码查看.jpg";
 document.getElementById("p106-1-1").innerHTML="wifi密码查看";
 document.getElementById("p106-1-2").innerHTML="可查看已连接WIFI密码";
@@ -1620,7 +1623,7 @@ $(".ioszsyzpd").each(function(){
     //对内容的一些操作
     if(chang.length){
         //比如字符不大于2的就替换成嘟嘟
-        $(this).html('已掉签');
+        $(this).html('正常中');
         console.log('2个字符内:'+chang);
     }else{
         console.log('大于2个字符:'+chang);
@@ -1659,7 +1662,7 @@ $(".iosgxsj").each(function(){
     //对内容的一些操作
     if(chang.length){
         //比如字符不大于2的就替换成嘟嘟
-        $(this).html('维护中');
+        $(this).html('2023.08.18');
     }
 });
 
