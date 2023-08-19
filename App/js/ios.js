@@ -1662,7 +1662,7 @@ $(".iosgxsj").each(function(){
     //对内容的一些操作
     if(chang.length){
         //比如字符不大于2的就替换成嘟嘟
-        $(this).html('2023.08.18');
+        $(this).html('维护中');
     }
 });
 
