@@ -2060,7 +2060,7 @@ document.getElementById("p114-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url114").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/IPCCReplacer.plist";
-var p1urlcpt114 = 'https://www.zzsn.asia/d/iPA分享/系统/IPCC%20Replacer.ipa';
+var p1urlcpt114 = 'https://www.zzsn.asia/d/iPA分享/系统/IPCC Replacer.ipa';
 var encode114 = encodeURI(p1urlcpt114);
 var encodeComponent114 = encodeURIComponent(encode114);
 document.getElementById("p1url114-1").href="apple-magnifier://install?url=" + encodeComponent114;
