@@ -1864,7 +1864,7 @@ document.getElementById("p107-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url107").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/SimpleKFDIOS16.plist";
-var p1urlcpt107 = 'https://www.zzsn.asia/d/iPA分享/系统/wifi密码查看.ipa';
+var p1urlcpt107 = 'https://www.zzsn.asia/d/iPA分享/系统/SimpleKFD.ipa';
 var encode107 = encodeURI(p1urlcpt107);
 var encodeComponent107 = encodeURIComponent(encode107);
 document.getElementById("p1url107-1").href="apple-magnifier://install?url=" + encodeComponent107;
@@ -1892,7 +1892,7 @@ document.getElementById("p108-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url108").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/SimpleKFDIOS15.plist";
-var p1urlcpt108 = 'https://www.zzsn.asia/d/iPA分享/系统/wifi密码查看.ipa';
+var p1urlcpt108 = 'https://www.zzsn.asia/d/iPA分享/系统/SimpleKFD15.ipa';
 var encode108 = encodeURI(p1urlcpt108);
 var encodeComponent108 = encodeURIComponent(encode108);
 document.getElementById("p1url108-1").href="apple-magnifier://install?url=" + encodeComponent108;
@@ -1920,7 +1920,7 @@ document.getElementById("p109-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url109").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/KFDColors.plist";
-var p1urlcpt109 = 'https://www.zzsn.asia/d/iPA分享/系统/wifi密码查看.ipa';
+var p1urlcpt109 = 'https://www.zzsn.asia/d/iPA分享/系统/KFDColors.ipa';
 var encode109 = encodeURI(p1urlcpt109);
 var encodeComponent109 = encodeURIComponent(encode109);
 document.getElementById("p1url109-1").href="apple-magnifier://install?url=" + encodeComponent109;
@@ -1948,7 +1948,7 @@ document.getElementById("p110-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url110").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/KFDColors14.plist";
-var p1urlcpt110 = 'https://www.zzsn.asia/d/iPA分享/系统/wifi密码查看.ipa';
+var p1urlcpt110 = 'https://www.zzsn.asia/d/iPA分享/系统/KFDColors-iPhone14专用.ipa';
 var encode110 = encodeURI(p1urlcpt110);
 var encodeComponent110 = encodeURIComponent(encode110);
 document.getElementById("p1url110-1").href="apple-magnifier://install?url=" + encodeComponent110;
@@ -1976,7 +1976,7 @@ document.getElementById("p111-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url111").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/TrollSpeed.plist";
-var p1urlcpt111 = 'https://www.zzsn.asia/d/iPA分享/系统/wifi密码查看.ipa';
+var p1urlcpt111 = 'https://www.zzsn.asia/d/iPA分享/系统/TrollSpeed.ipa';
 var encode111 = encodeURI(p1urlcpt111);
 var encodeComponent111 = encodeURIComponent(encode111);
 document.getElementById("p1url111-1").href="apple-magnifier://install?url=" + encodeComponent111;
@@ -2004,7 +2004,7 @@ document.getElementById("p112-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url112").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/reddot.plist";
-var p1urlcpt112 = 'https://www.zzsn.asia/d/iPA分享/系统/wifi密码查看.ipa';
+var p1urlcpt112 = 'https://www.zzsn.asia/d/iPA分享/系统/reddot修改角标颜色.ipa';
 var encode112 = encodeURI(p1urlcpt112);
 var encodeComponent112 = encodeURIComponent(encode112);
 document.getElementById("p1url112-1").href="apple-magnifier://install?url=" + encodeComponent112;
@@ -2032,7 +2032,7 @@ document.getElementById("p113-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url113").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/AppStore++.plist";
-var p1urlcpt113 = 'https://www.zzsn.asia/d/iPA分享/系统/wifi密码查看.ipa';
+var p1urlcpt113 = 'https://www.zzsn.asia/d/iPA分享/系统/AppStore++.ipa';
 var encode113 = encodeURI(p1urlcpt113);
 var encodeComponent113 = encodeURIComponent(encode113);
 document.getElementById("p1url113-1").href="apple-magnifier://install?url=" + encodeComponent113;
@@ -2060,7 +2060,7 @@ document.getElementById("p114-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url114").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/IPCCReplacer.plist";
-var p1urlcpt114 = 'https://www.zzsn.asia/d/iPA分享/系统/wifi密码查看.ipa';
+var p1urlcpt114 = 'https://www.zzsn.asia/d/iPA分享/系统/IPCC%20Replacer.ipa';
 var encode114 = encodeURI(p1urlcpt114);
 var encodeComponent114 = encodeURIComponent(encode114);
 document.getElementById("p1url114-1").href="apple-magnifier://install?url=" + encodeComponent114;
@@ -2088,7 +2088,7 @@ document.getElementById("p115-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url115").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/Postbox.plist";
-var p1urlcpt115 = 'https://www.zzsn.asia/d/iPA分享/系统/wifi密码查看.ipa';
+var p1urlcpt115 = 'https://www.zzsn.asia/d/iPA分享/系统/Postbox插件提取.ipa';
 var encode115 = encodeURI(p1urlcpt115);
 var encodeComponent115 = encodeURIComponent(encode115);
 document.getElementById("p1url115-1").href="apple-magnifier://install?url=" + encodeComponent115;
@@ -2116,7 +2116,7 @@ document.getElementById("p116-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url116").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/Blacklist.plist";
-var p1urlcpt116 = 'https://www.zzsn.asia/d/iPA分享/系统/wifi密码查看.ipa';
+var p1urlcpt116 = 'https://www.zzsn.asia/d/iPA分享/系统/Blacklist解除过期签名.ipa';
 var encode116 = encodeURI(p1urlcpt116);
 var encodeComponent116 = encodeURIComponent(encode116);
 document.getElementById("p1url116-1").href="apple-magnifier://install?url=" + encodeComponent116;
@@ -2144,7 +2144,7 @@ document.getElementById("p117-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url117").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/WIFIxindaojiance.plist";
-var p1urlcpt117 = 'https://www.zzsn.asia/d/iPA分享/系统/wifi密码查看.ipa';
+var p1urlcpt117 = 'https://www.zzsn.asia/d/iPA分享/系统/WiFi信道检测.ipa';
 var encode117 = encodeURI(p1urlcpt117);
 var encodeComponent117 = encodeURIComponent(encode117);
 document.getElementById("p1url117-1").href="apple-magnifier://install?url=" + encodeComponent117;
@@ -2175,7 +2175,7 @@ $(".ioszsyzpd").each(function(){
     //对内容的一些操作
     if(chang.length){
         //比如字符不大于2的就替换成嘟嘟
-        $(this).html('正常');
+        $(this).html('已掉签');
         console.log('2个字符内:'+chang);
     }else{
         console.log('大于2个字符:'+chang);
@@ -2214,7 +2214,7 @@ $(".iosgxsj").each(function(){
     //对内容的一些操作
     if(chang.length){
         //比如字符不大于2的就替换成嘟嘟
-        $(this).html('2023.08.22');
+        $(this).html('已掉签');
     }
 });
 
