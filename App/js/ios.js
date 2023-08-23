@@ -1864,10 +1864,6 @@ document.getElementById("p107-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url107").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/SimpleKFDIOS16.plist";
-var p1urlcpt107 = 'https://www.zzsn.asia/d/iPA分享/系统/SimpleKFD.ipa';
-var encode107 = encodeURI(p1urlcpt107);
-var encodeComponent107 = encodeURIComponent(encode107);
-document.getElementById("p1url107-1").href="apple-magnifier://install?url=" + encodeComponent107;
 document.getElementById("images107-1").src="images/ios/SimpleKFD.jpg";
 document.getElementById("p107-1-1").innerHTML="SimpleKFD";
 document.getElementById("p107-1-2").innerHTML="多合一功能，支持开启灵动岛";
@@ -1920,10 +1916,6 @@ document.getElementById("p109-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url109").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/KFDColors.plist";
-var p1urlcpt109 = 'https://www.zzsn.asia/d/iPA分享/系统/KFDColors.ipa';
-var encode109 = encodeURI(p1urlcpt109);
-var encodeComponent109 = encodeURIComponent(encode109);
-document.getElementById("p1url109-1").href="apple-magnifier://install?url=" + encodeComponent109;
 document.getElementById("images109-1").src="images/ios/KFDColors.jpg";
 document.getElementById("p109-1-1").innerHTML="KFDColors（修改角标）";
 document.getElementById("p109-1-2").innerHTML="修改角标颜色";
@@ -1948,10 +1940,6 @@ document.getElementById("p110-3").innerHTML="无";
 });
 $(function() {
 document.getElementById("p1url110").href="itms-services://?action=download-manifest&amp;url=https://zzsnn.github.io/App/Origamiapp/KFDColors14.plist";
-var p1urlcpt110 = 'https://www.zzsn.asia/d/iPA分享/系统/KFDColors-iPhone14专用.ipa';
-var encode110 = encodeURI(p1urlcpt110);
-var encodeComponent110 = encodeURIComponent(encode110);
-document.getElementById("p1url110-1").href="apple-magnifier://install?url=" + encodeComponent110;
 document.getElementById("images110-1").src="images/ios/KFDColors.jpg";
 document.getElementById("p110-1-1").innerHTML="KFDColors 苹果14专用";
 document.getElementById("p110-1-2").innerHTML="修改角标颜色";
